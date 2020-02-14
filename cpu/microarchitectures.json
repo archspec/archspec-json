@@ -1174,6 +1174,22 @@
             "versions": "5:",
             "flags": "-mcpu=thunderx2t99"
           }
+        ],
+        "fj": [
+          {
+            "version": ":4.0.0",
+            "flags": "-Knolargepage",
+            "cflags": "-Nclang",
+            "cxxflags": "-Nclang",
+            "fflags": "-KGENERIC_CPU -KNOSVE"
+          },
+          {
+            "version": "4.1.0:",
+            "flags": "-Knolargepage",
+            "cflags": "-Nclang -mcpu=thunderx2t99",
+            "cxxflags": "-Nclang -mcpu=thunderx2t99",
+            "fflags": "-KGENERIC_CPU -KNOSVE"
+          }
         ]
       }
     },
@@ -1230,7 +1246,12 @@
             "versions": "5:",
             "flags": "-march=armv8.2-a+crc+crypto+fp16+sve"
           }
-        ]
+        ],
+        "fj": {
+          "version": ":",
+          "cflags": "-Nclang",
+          "cxxflags": "-Nclang"
+        }
       }
     },
     "arm": {
