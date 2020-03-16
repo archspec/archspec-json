@@ -55,6 +55,15 @@
                         },
                         "flags": {
                           "type": "string"
+                        },
+                        "cflags": {
+                          "type": "string"
+                        },
+                        "cxxflags": {
+                          "type": "string"
+                        },
+                        "fflags": {
+                          "type": "string"
                         }
                       },
                       "required": [
@@ -75,6 +84,15 @@
                             "type": "string"
                           },
                           "flags": {
+                            "type": "string"
+                          },
+                          "cflags": {
+                            "type": "string"
+                          },
+                          "cxxflags": {
+                            "type": "string"
+                          },
+                          "fflags": {
                             "type": "string"
                           }
                         },

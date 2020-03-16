@@ -1174,6 +1174,18 @@
             "versions": "5:",
             "flags": "-mcpu=thunderx2t99"
           }
+        ],
+        "fj": [
+          {
+            "version": ":4.0.0",
+            "default": "-Knolargepage -Nclang",
+            "fortran": "-Knolargepage -KGENERIC_CPU -KNOSVE"
+          },
+          {
+            "version": "4.1.0:",
+            "default": "-Knolargepage -Nclang -mcpu=thunderx2t99",
+            "fortran": "-Knolargepage -KGENERIC_CPU -KNOSVE"
+          }
         ]
       }
     },
@@ -1230,7 +1242,12 @@
             "versions": "5:",
             "flags": "-march=armv8.2-a+crc+crypto+fp16+sve"
           }
-        ]
+        ],
+        "fj": {
+          "version": ":",
+          "default": "-Nclang",
+          "fortran": ""
+        }
       }
     },
     "arm": {
