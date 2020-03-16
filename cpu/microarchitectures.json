@@ -1178,17 +1178,13 @@
         "fj": [
           {
             "version": ":4.0.0",
-            "flags": "-Knolargepage",
-            "cflags": "-Nclang",
-            "cxxflags": "-Nclang",
-            "fflags": "-KGENERIC_CPU -KNOSVE"
+            "default": "-Knolargepage -Nclang",
+            "fortran": "-Knolargepage -KGENERIC_CPU -KNOSVE"
           },
           {
             "version": "4.1.0:",
-            "flags": "-Knolargepage",
-            "cflags": "-Nclang -mcpu=thunderx2t99",
-            "cxxflags": "-Nclang -mcpu=thunderx2t99",
-            "fflags": "-KGENERIC_CPU -KNOSVE"
+            "default": "-Knolargepage -Nclang -mcpu=thunderx2t99",
+            "fortran": "-Knolargepage -KGENERIC_CPU -KNOSVE"
           }
         ]
       }
@@ -1249,8 +1245,8 @@
         ],
         "fj": {
           "version": ":",
-          "cflags": "-Nclang",
-          "cxxflags": "-Nclang"
+          "default": "-Nclang",
+          "fortran": ""
         }
       }
     },
