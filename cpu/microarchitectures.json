@@ -1,24 +1,24 @@
 {
   "microarchitectures": {
     "x86": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": []
     },
     "i686": {
-      "from": "x86",
+      "from": ["x86"],
       "vendor": "GenuineIntel",
       "features": []
     },
     "pentium2": {
-      "from": "i686",
+      "from": ["i686"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx"
       ]
     },
     "pentium3": {
-      "from": "pentium2",
+      "from": ["pentium2"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -26,7 +26,7 @@
       ]
     },
     "pentium4": {
-      "from": "pentium3",
+      "from": ["pentium3"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -35,7 +35,7 @@
       ]
     },
     "prescott": {
-      "from": "pentium4",
+      "from": ["pentium4"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -45,7 +45,7 @@
       ]
     },
     "x86_64": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
@@ -83,7 +83,7 @@
       }
     },
     "nocona": {
-      "from": "x86_64",
+      "from": ["x86_64"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -114,7 +114,7 @@
       }
     },
     "core2": {
-      "from": "nocona",
+      "from": ["nocona"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -144,7 +144,7 @@
       }
     },
     "nehalem": {
-      "from": "core2",
+      "from": ["core2"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -183,7 +183,7 @@
       }
     },
     "westmere": {
-      "from": "nehalem",
+      "from": ["nehalem"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -219,7 +219,7 @@
       }
     },
     "sandybridge": {
-      "from": "westmere",
+      "from": ["westmere"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -265,7 +265,7 @@
       }
     },
     "ivybridge": {
-      "from": "sandybridge",
+      "from": ["sandybridge"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -313,7 +313,7 @@
       }
     },
     "haswell": {
-      "from": "ivybridge",
+      "from": ["ivybridge"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -366,7 +366,7 @@
       }
     },
     "broadwell": {
-      "from": "haswell",
+      "from": ["haswell"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -411,7 +411,7 @@
       }
     },
     "skylake": {
-      "from": "broadwell",
+      "from": ["broadwell"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -459,7 +459,7 @@
       }
     },
     "mic_knl": {
-      "from": "broadwell",
+      "from": ["broadwell"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -512,7 +512,7 @@
       }
     },
     "skylake_avx512": {
-      "from": "skylake",
+      "from": ["skylake"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -569,7 +569,7 @@
       }
     },
     "cannonlake": {
-      "from": "skylake",
+      "from": ["skylake"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -626,7 +626,7 @@
       }
     },
     "cascadelake": {
-      "from": "skylake_avx512",
+      "from": ["skylake_avx512"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -757,7 +757,7 @@
       }
     },
     "k10": {
-      "from": "x86_64",
+      "from": ["x86_64"],
       "vendor": "AuthenticAMD",
       "features": [
         "mmx",
@@ -794,7 +794,7 @@
       }
     },
     "bulldozer": {
-      "from": "x86_64",
+      "from": ["x86_64"],
       "vendor": "AuthenticAMD",
       "features": [
         "mmx",
@@ -837,7 +837,7 @@
       }
     },
     "piledriver": {
-      "from": "bulldozer",
+      "from": ["bulldozer"],
       "vendor": "AuthenticAMD",
       "features": [
         "mmx",
@@ -884,7 +884,7 @@
       }
     },
     "steamroller": {
-      "from": "piledriver",
+      "from": ["piledriver"],
       "vendor": "AuthenticAMD",
       "features": [
         "mmx",
@@ -932,7 +932,7 @@
       }
     },
     "excavator": {
-      "from": "steamroller",
+      "from": ["steamroller"],
       "vendor": "AuthenticAMD",
       "features": [
         "mmx",
@@ -984,7 +984,7 @@
       }
     },
     "zen": {
-      "from": "x86_64",
+      "from": ["x86_64"],
       "vendor": "AuthenticAMD",
       "features": [
         "bmi1",
@@ -1039,7 +1039,7 @@
       }
     },
     "zen2": {
-      "from": "zen",
+      "from": ["zen"],
       "vendor": "AuthenticAMD",
       "features": [
         "bmi1",
@@ -1095,7 +1095,7 @@
       }
     },
     "ppc64": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
@@ -1115,7 +1115,7 @@
       }
     },
     "power7": {
-      "from": "ppc64",
+      "from": ["ppc64"],
       "vendor": "IBM",
       "generation": 7,
       "features": [],
@@ -1135,7 +1135,7 @@
       }
     },
     "power8": {
-      "from": "power7",
+      "from": ["power7"],
       "vendor": "IBM",
       "generation": 8,
       "features": [],
@@ -1160,7 +1160,7 @@
       }
     },
     "power9": {
-      "from": "power8",
+      "from": ["power8"],
       "vendor": "IBM",
       "generation": 9,
       "features": [],
@@ -1180,7 +1180,7 @@
       }
     },
     "ppc64le": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
@@ -1200,7 +1200,7 @@
       }
     },
     "power8le": {
-      "from": "ppc64le",
+      "from": ["ppc64le"],
       "vendor": "IBM",
       "generation": 8,
       "features": [],
@@ -1229,7 +1229,7 @@
       }
     },
     "power9le": {
-      "from": "power8le",
+      "from": ["power8le"],
       "vendor": "IBM",
       "generation": 9,
       "features": [],
@@ -1252,7 +1252,7 @@
       }
     },
     "aarch64": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
@@ -1271,7 +1271,7 @@
       }
     },
     "thunderx2": {
-      "from": "aarch64",
+      "from": ["aarch64"],
       "vendor": "Cavium",
       "features": [
         "fp",
@@ -1318,7 +1318,7 @@
       }
     },
     "a64fx": {
-      "from": "aarch64",
+      "from": ["aarch64"],
       "vendor": "Fujitsu",
       "features": [
         "fp",
@@ -1374,7 +1374,7 @@
       }
     },
     "arm": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
@@ -1388,28 +1388,28 @@
       }
     },
     "ppc": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
       }
     },
     "ppcle": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
       }
     },
     "sparc": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
       }
     },
     "sparc64": {
-      "from": null,
+      "from": [],
       "vendor": "generic",
       "features": [],
       "compilers": {
