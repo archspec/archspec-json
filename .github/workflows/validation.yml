@@ -1,0 +1,29 @@
+name: Unit tests
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches: 
+      - master
+  schedule:
+  - cron: "0 4 * * *"
+    
+jobs:
+  validation:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies (Common)
+      run: |
+        pip install jsonschema
+    - name: Validate JSON file
+      run: |
+        jsonschema -i cpu/microarchitectures.json cpu/microarchitectures_schema.json
+
