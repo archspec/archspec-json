@@ -1,3 +1,5 @@
+[![](https://github.com/archspec/archspec-json/workflows/JSON%20Validation/badge.svg)](https://github.com/archspec/archspec-json/actions)
+
 # Archspec-json
 
 The [archspec-json](https://github.com/archspec/archspec-json) repository is part of the
