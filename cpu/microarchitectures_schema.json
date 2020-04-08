@@ -11,23 +11,11 @@
           "type": "object",
           "properties": {
             "from": {
-              "anyOf": [
-                {
-                  "$comment": "More than one parent",
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                {
-                  "$comment": "Exactly one parent",
-                  "type": "string"
-                },
-                {
-                  "$comment": "No parent",
-                  "type": "null"
-                }
-              ]
+              "$comment": "More than one parent",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
             },
             "vendor": {
               "type": "string"
