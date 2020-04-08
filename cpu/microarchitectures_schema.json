@@ -42,49 +42,26 @@
               "type": "object",
               "patternProperties": {
                 "([\\w]*)": {
-                  "anyOf": [
-                    {
-                      "$comment": "Single entry (Compiler didn't change options across versions)",
-                      "type": "object",
-                      "properties": {
-                        "versions": {
-                          "type": "string"
-                        },
-                        "name": {
-                          "type": "string"
-                        },
-                        "flags": {
-                          "type": "string"
-                        }
+                  "$comment": "Permit multiple entries since compilers change options across versions",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "versions": {
+                        "type": "string"
                       },
-                      "required": [
-                        "versions",
-                        "flags"
-                      ]
-                    },
-                    {
-                      "$comment": "Multiple entries (Compiler change options across versions)",
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "versions": {
-                            "type": "string"
-                          },
-                          "name": {
-                            "type": "string"
-                          },
-                          "flags": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "versions",
-                          "flags"
-                        ]
+                      "name": {
+                        "type": "string"
+                      },
+                      "flags": {
+                        "type": "string"
                       }
-                    }
-                  ]
+                    },
+                    "required": [
+                      "versions",
+                      "flags"
+                    ]
+                  }
                 }
               }
             }
