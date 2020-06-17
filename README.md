@@ -14,4 +14,23 @@ Currently the repository contains the following JSON files:
 └── cpu
     ├── microarchitectures.json         # Contains information on CPU microarchitectures
     └── microarchitectures_schema.json  # Schema for the file above
-```
+ ```
+
+
+## License
+
+Archspec is distributed under the terms of both the MIT license and the
+Apache License (Version 2.0). Users may choose either license, at their
+option.
+
+All new contributions must be made under both the MIT and Apache-2.0
+licenses.
+
+See [LICENSE-MIT](https://github.com/archspec/archspec-json/blob/master/LICENSE-MIT),
+[LICENSE-APACHE](https://github.com/archspec/archspec-json/blob/master/LICENSE-APACHE),
+[COPYRIGHT](https://github.com/archspec/archspec-json/blob/master/COPYRIGHT), and
+[NOTICE](https://github.com/archspec/archspec-json/blob/master/NOTICE) for details.
+
+SPDX-License-Identifier: (Apache-2.0 OR MIT)
+
+LLNL-CODE-811653
