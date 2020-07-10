@@ -1377,7 +1377,7 @@
     },
     "graviton2": {
       "from": ["aarch64"],
-      "vendor": "AWS",
+      "vendor": "ARM",
       "features": [
           "fp",
           "asimd",
