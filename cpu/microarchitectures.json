@@ -1375,6 +1375,47 @@
         ]
       }
     },
+    "graviton2": {
+      "from": ["aarch64"],
+      "vendor": "ARM",
+      "features": [
+          "fp",
+          "asimd",
+          "evtstrm",
+          "aes",
+          "pmull",
+          "sha1",
+          "sha2",
+          "crc32",
+          "atomics",
+          "fphp",
+          "asimdhp",
+          "cpuid",
+          "asimdrdm",
+          "lrcpc",
+          "dcpop",
+          "asimddp",
+          "ssbs"
+      ],
+      "compilers" : {
+          "gcc": [
+              {
+                  "versions": ":8.9",
+                  "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto -mtune=cortex-a72"
+              },
+              {
+                  "versions": "9.0:",
+                  "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto -mtune=neoverse-n1"
+              }
+          ],
+          "clang" : [
+              {
+                  "versions": ":",
+                  "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
+              }
+          ]
+      }
+    },
     "arm": {
       "from": [],
       "vendor": "generic",
