@@ -1375,6 +1375,25 @@
         ]
       }
     },
+    "graviton": {
+      "from": ["aarch64"],
+      "vendor": "ARM",
+      "features": ["fp", "asimd", "evtstrm", "aes", "pmull", "sha1", "sha2", "crc32", "cpuid"],
+      "compilers" : {
+          "gcc": [
+              {
+                  "versions": ":",
+                  "flags" : "-march==armv8-a+crc+crypto -mtune=cortex-a72"
+              }
+          ],
+          "clang" : [
+              {
+                  "versions": ":",
+                  "flags" : "-march=armv8-a+crc+crypto"
+              }
+          ]
+      }
+    },
     "graviton2": {
       "from": ["aarch64"],
       "vendor": "ARM",
