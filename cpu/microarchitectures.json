@@ -1378,7 +1378,17 @@
     "graviton": {
       "from": ["aarch64"],
       "vendor": "ARM",
-      "features": ["fp", "asimd", "evtstrm", "aes", "pmull", "sha1", "sha2", "crc32", "cpuid"],
+      "features": [
+          "fp",
+          "asimd",
+          "evtstrm",
+          "aes",
+          "pmull",
+          "sha1",
+          "sha2",
+          "crc32",
+          "cpuid"
+      ],
       "compilers" : {
           "gcc": [
               {
