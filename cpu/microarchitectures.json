@@ -1392,13 +1392,21 @@
       "compilers" : {
           "gcc": [
               {
-                  "versions": ":",
+                  "versions": "4.8:4.8.9",
+                  "flags" : "-march=armv8-a"
+              },
+              {
+                  "versions": "4.9:5.9",
+                  "flags" : "-march=armv8-a+crc+crypto"
+              },
+              {
+                  "versions": "6:",
                   "flags" : "-march==armv8-a+crc+crypto -mtune=cortex-a72"
               }
           ],
           "clang" : [
               {
-                  "versions": ":",
+                  "versions": "3.9:",
                   "flags" : "-march=armv8-a+crc+crypto"
               }
           ]
