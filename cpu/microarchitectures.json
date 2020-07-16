@@ -1437,7 +1437,27 @@
       "compilers" : {
           "gcc": [
               {
-                  "versions": ":8.9",
+                  "versions": "4.8:4.8.9",
+                  "flags": "-march=armv8-a"
+              },
+              {
+                  "versions": "4.9:5.9",
+                  "flags": "-march=armv8-a+crc+crypto"
+              },
+              {
+                  "versions": "6:6.9",
+                  "flags" : "-march=armv8.1-a"
+              },
+              {
+                  "versions": "7:7.9",
+                  "flags" : "-march=armv8.2-a+fp16 -mtune=cortex-a72"
+              },
+              {
+                  "versions": "8.0:8.0",
+                  "flags" : "-march=armv8.2-a+fp16+dotprod+crypto -mtune=cortex-a72"
+              },
+              {
+                  "versions": "8.1:8.9",
                   "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto -mtune=cortex-a72"
               },
               {
@@ -1447,7 +1467,11 @@
           ],
           "clang" : [
               {
-                  "versions": ":",
+                  "versions": "3.9:4.9",
+                  "flags" : "-march=armv8.2-a+fp16+crc+crypto"
+              },
+              {
+                  "versions": "5:",
                   "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
               }
           ]
