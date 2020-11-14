@@ -1607,7 +1607,36 @@
       "features": [],
       "compilers": {
       }
+    },
+    "niagara2": {
+    "from": ["sparc64"],
+    "vendor": "Oracle",
+    "features": [
+      "vis",
+      "vis2",
+      "flush",
+      "stbar",
+      "swap",
+      "muldiv",
+      "v9",
+      "blkinit",
+      "n2",
+      "mul32",
+      "div32",
+      "v8plus",
+      "popc",
+      "ASIBlkInit"
+    ],
+    "compilers": {
+      "gcc": [
+        {
+            "versions": "9.3.0:",
+            "name": "niagara2",
+            "flags": "-march={name} -mtune={name}"
+        }
+      ]
     }
+  }
   },
   "feature_aliases": {
     "sse3": {
