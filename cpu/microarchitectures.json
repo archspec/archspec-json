@@ -622,7 +622,7 @@
         "aocc": [
           {
             "versions": "2.2:",
-        "name": "knl",
+            "name": "knl",
             "flags": "-march={name} -mtune=generic"
           }
         ],
@@ -692,7 +692,7 @@
         "aocc": [
           {
             "versions": "2.2:",
-        "name": "skylake-avx512",
+            "name": "skylake-avx512",
             "flags": "-march={name} -mtune=generic"
           }
         ],
@@ -917,7 +917,7 @@
         "aocc": [
           {
             "versions": "2.2:",
-        "name": "icelake-client",
+            "name": "icelake-client",
             "flags": "-march={name} -mtune={name}"
           }
         ],
