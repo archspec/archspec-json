@@ -841,7 +841,7 @@
         ],
         "intel": [
           {
-            "versions": "19.0:",
+            "versions": "19.0.1:",
             "flags": "-march={name} -mtune={name}"
           }
         ]
