@@ -1357,7 +1357,13 @@
         "xsaveopt",
         "clflushopt",
         "popcnt",
-        "clwb"
+        "clwb",
+        "erms",
+        "invpcid",
+        "ospke",
+        "pku",
+        "vaes",
+        "vpclmulqdq"
       ],
       "compilers": {
         "aocc": [
