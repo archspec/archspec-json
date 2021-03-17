@@ -1358,9 +1358,6 @@
         "clflushopt",
         "popcnt",
         "clwb",
-        "invpcid",
-        "ospke",
-        "pku",
         "vaes",
         "vpclmulqdq"
       ],
