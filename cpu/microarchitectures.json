@@ -1358,7 +1358,6 @@
         "clflushopt",
         "popcnt",
         "clwb",
-        "erms",
         "invpcid",
         "ospke",
         "pku",
