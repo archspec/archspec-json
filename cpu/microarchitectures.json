@@ -1359,9 +1359,17 @@
         "popcnt",
         "clwb",
         "vaes",
-        "vpclmulqdq"
+        "vpclmulqdq",
+        "pku"
       ],
       "compilers": {
+        "gcc": [
+          {
+            "versions": "11.0:",
+            "name": "znver3",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "3.0:",
