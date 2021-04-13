@@ -1365,7 +1365,7 @@
       "compilers": {
         "gcc": [
           {
-            "versions": "11.0:",
+            "versions": "10.3:",
             "name": "znver3",
             "flags": "-march={name} -mtune={name}"
           }
