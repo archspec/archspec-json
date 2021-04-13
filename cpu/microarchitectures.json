@@ -1370,6 +1370,13 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "clang": [
+          {
+            "versions": "12.0:",
+            "name": "znver3",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "3.0:",
