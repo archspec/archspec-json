@@ -1559,6 +1559,12 @@
             "versions": ":",
             "flags": "-march=armv8-a -mtune=generic"
           }
+        ],
+        "apple-clang": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8-a -mtune=generic"
+          }
         ]
       }
     },
@@ -1765,6 +1771,31 @@
                   "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
               }
           ]
+      }
+    },
+    "m1": {
+      "from": ["aarch64"],
+      "vendor": "Apple",
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "8.0:",
+            "flags" : "-march=armv8.4-a -mtune=generic"
+          }
+        ],
+        "clang" : [
+          {
+            "versions": "9.0:",
+            "flags" : "-march=armv8.4-a"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": "11.0:",
+            "flags" : "-march=armv8.4-a"
+          }
+        ]
       }
     },
     "arm": {
