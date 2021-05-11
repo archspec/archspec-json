@@ -176,8 +176,47 @@
         ]
       }
     },
-    "nehalem": {
+    "x86_64_v2": {
       "from": ["core2"],
+      "vendor": "generic",
+      "features": [
+        "mmx",
+        "sse",
+        "sse2",
+        "ssse3",
+        "sse4_1",
+        "sse4_2",
+        "popcnt"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "11.1:",
+            "name": "x86-64-v2",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "4.6:10.3",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "12.0:",
+            "name": "x86-64-v2",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "3.9:11.1",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3"
+          }
+        ]
+      }
+    },
+    "nehalem": {
+      "from": ["x86_64_v2"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -393,8 +432,64 @@
         ]
       }
     },
-    "haswell": {
+    "x86_64_v3": {
       "from": ["ivybridge"],
+      "vendor": "generic",
+      "features": [
+        "mmx",
+        "sse",
+        "sse2",
+        "ssse3",
+        "sse4_1",
+        "sse4_2",
+        "popcnt",
+        "aes",
+        "pclmulqdq",
+        "avx",
+        "rdrand",
+        "f16c",
+        "movbe",
+        "fma",
+        "avx2",
+        "bmi1",
+        "bmi2"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "11.1:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "4.8:10.3",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "12.0:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "3.9:11.1",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": "8.0:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ]
+      }
+    },
+    "haswell": {
+      "from": ["x86_64_v3"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
@@ -641,8 +736,75 @@
         ]
       }
     },
-    "skylake_avx512": {
+    "x86_64_v4": {
       "from": ["skylake"],
+      "vendor": "generic",
+      "features": [
+        "mmx",
+        "sse",
+        "sse2",
+        "ssse3",
+        "sse4_1",
+        "sse4_2",
+        "popcnt",
+        "aes",
+        "pclmulqdq",
+        "avx",
+        "rdrand",
+        "f16c",
+        "movbe",
+        "fma",
+        "avx2",
+        "bmi1",
+        "bmi2",
+        "rdseed",
+        "adx",
+        "clflushopt",
+        "xsavec",
+        "xsaveopt",
+        "avx512f",
+        "clwb",
+        "avx512vl",
+        "avx512bw",
+        "avx512dq",
+        "avx512cd"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "11.1:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "6.0:10.3",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "12.0:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "3.9:11.1",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": "8.0:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ]
+      }
+    },
+    "skylake_avx512": {
+      "from": ["x86_64_v4"],
       "vendor": "GenuineIntel",
       "features": [
         "mmx",
