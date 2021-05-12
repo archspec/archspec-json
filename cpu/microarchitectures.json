@@ -196,7 +196,7 @@
             "flags": "-march={name} -mtune=generic"
           },
           {
-            "versions": "4.6:10.3",
+            "versions": "4.6:11.0",
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3"
           }
@@ -462,7 +462,7 @@
             "flags": "-march={name} -mtune=generic"
           },
           {
-            "versions": "4.8:10.3",
+            "versions": "4.8:11.0",
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
           }
@@ -777,7 +777,7 @@
             "flags": "-march={name} -mtune=generic"
           },
           {
-            "versions": "6.0:10.3",
+            "versions": "6.0:11.0",
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
           }
