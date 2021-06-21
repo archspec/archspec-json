@@ -1834,6 +1834,12 @@
             "versions": "5:",
             "flags": "-march=armv8.2-a+crc+crypto+fp16+sve"
           }
+        ],
+        "arm": [
+          {
+            "versions": "20:",
+            "flags": "-march=armv8.2-a+crc+crypto+fp16+sve"
+          }
         ]
       }
     },
