@@ -1942,7 +1942,14 @@
                   "versions": "5:",
                   "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
               }
+          ],
+          "arm" : [
+              {
+                  "versions": "20:",
+                  "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
+              }
           ]
+          
       }
     },
     "m1": {
