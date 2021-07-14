@@ -1949,7 +1949,6 @@
                   "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
               }
           ]
-          
       }
     },
     "m1": {
