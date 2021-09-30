@@ -2017,6 +2017,32 @@
       "features": [],
       "compilers": {
       }
+    },
+    "riscv64": {
+      "from": [],
+      "vendor": "generic",
+      "features": [],
+      "compilers": {
+      }
+    },
+    "u74mc": {
+      "from": ["riscv64"],
+      "vendor": "SiFive",
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "10.2:",
+            "flags" : "-mtune=sifive-7-series"
+          }
+        ],
+        "clang" : [
+          {
+            "versions": "12.0:",
+            "flags" : "-mtune=sifive-7-series"
+          }
+        ]
+      }
     }
   },
   "feature_aliases": {
