@@ -1964,14 +1964,22 @@
         ],
         "clang" : [
           {
-            "versions": "9.0:",
+            "versions": "9.0:12.0",
             "flags" : "-march=armv8.4-a"
+          },
+          {
+            "versions": "13.0:",
+            "flags" : "-march=armv8.5-a+aes+sha2+sha3+fp16fml+fp16+rcpc+dotprod -mcpu=apple-m1"
           }
         ],
         "apple-clang": [
           {
-            "versions": "11.0:",
+            "versions": "11.0:12.5",
             "flags" : "-march=armv8.4-a"
+          },
+          {
+            "versions": "13.0:",
+            "flags" : "-march=armv8.5-a+aes+sha2+sha3+fp16fml+fp16+rcpc+dotprod -mcpu=apple-m1"
           }
         ]
       }
