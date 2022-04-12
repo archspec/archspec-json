@@ -1969,7 +1969,7 @@
           },
           {
             "versions": "13.0:",
-            "flags" : "-march=armv8.5-a+aes+sha2+sha3+fp16fml+fp16+rcpc+dotprod -mcpu=apple-m1"
+            "flags" : "-mcpu=apple-m1"
           }
         ],
         "apple-clang": [
@@ -1979,7 +1979,7 @@
           },
           {
             "versions": "13.0:",
-            "flags" : "-march=armv8.5-a+aes+sha2+sha3+fp16fml+fp16+rcpc+dotprod -mcpu=apple-m1"
+            "flags" : "-mcpu=apple-m1"
           }
         ]
       }
