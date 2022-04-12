@@ -1825,7 +1825,7 @@
           },
           {
             "versions": "10.3:",
-            "flags": "-march=armv8.2-a+crc+sha2+fp16+sve -mcpu=a64fx -msve-vector-bits=512"
+            "flags": "-mcpu=a64fx -msve-vector-bits=512"
           }
         ],
         "clang": [
@@ -1839,7 +1839,7 @@
           },
           {
             "versions": "11:",
-            "flags": "-march=armv8.2-a+crc+sha2+fp16+sve -mcpu=a64fx"
+            "flags": "-mcpu=a64fx"
           }
         ],
         "arm": [
