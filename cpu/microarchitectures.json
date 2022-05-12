@@ -1788,7 +1788,6 @@
         "fp",
         "asimd",
         "evtstrm",
-        "aes",
         "pmull",
         "sha1",
         "sha2",
@@ -1821,18 +1820,26 @@
             "flags": "-march=armv8.2-a+crc+crypto+fp16"
           },
           {
-            "versions": "8:",
-            "flags": "-march=armv8.2-a+crc+aes+sha2+fp16+sve -msve-vector-bits=512"
+            "versions": "8:10.2",
+            "flags": "-march=armv8.2-a+crc+sha2+fp16+sve -msve-vector-bits=512"
+          },
+          {
+            "versions": "10.3:",
+            "flags": "-mcpu=a64fx -msve-vector-bits=512"
           }
         ],
         "clang": [
           {
             "versions": "3.9:4.9",
-            "flags": "-march=armv8.2-a+crc+crypto+fp16"
+            "flags": "-march=armv8.2-a+crc+sha2+fp16"
           },
           {
-            "versions": "5:",
-            "flags": "-march=armv8.2-a+crc+crypto+fp16+sve"
+            "versions": "5:10",
+            "flags": "-march=armv8.2-a+crc+sha2+fp16+sve"
+          },
+          {
+            "versions": "11:",
+            "flags": "-mcpu=a64fx"
           }
         ],
         "arm": [
