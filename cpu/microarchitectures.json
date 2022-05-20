@@ -95,7 +95,7 @@
             "name": "pentium4",
             "flags": "-march={name} -mtune=generic"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -312,7 +312,7 @@
             "name": "pentium4",
             "flags": "-march={name} -mtune=generic"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -367,7 +367,7 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -431,7 +431,7 @@
             "name": "corei7",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -493,7 +493,7 @@
             "name": "corei7",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -564,7 +564,7 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -636,7 +636,7 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -713,7 +713,7 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -782,7 +782,7 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -854,7 +854,7 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -933,7 +933,7 @@
             "name": "knl",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1017,7 +1017,7 @@
             "name": "skylake-avx512",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1099,7 +1099,7 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1178,7 +1178,7 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1285,7 +1285,7 @@
             "name": "icelake-client",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1343,7 +1343,7 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse2"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1407,7 +1407,7 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse3"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1475,7 +1475,7 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse3"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1544,7 +1544,7 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse4.2"
           }
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1618,7 +1618,7 @@
           }
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1696,7 +1696,7 @@
           }
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1775,7 +1775,7 @@
           }
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
@@ -1857,7 +1857,7 @@
           }
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
-        ]
+        ],
         "dpcpp": [
           {
             "versions": ":",
