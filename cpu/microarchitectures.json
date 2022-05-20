@@ -305,7 +305,7 @@
             "name": "pentium4",
             "flags": "-march={name} -mtune=generic"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -361,7 +361,7 @@
             "versions": "16.0:",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -424,7 +424,7 @@
             "name": "corei7",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -486,7 +486,7 @@
             "name": "corei7",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -558,7 +558,7 @@
             "versions": "18.0:",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -630,7 +630,7 @@
             "versions": "18.0:",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -707,7 +707,7 @@
             "versions": "18.0:",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -776,7 +776,7 @@
             "versions": "18.0:",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -848,7 +848,7 @@
             "versions": "18.0:",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -926,7 +926,7 @@
             "name": "knl",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1010,7 +1010,7 @@
             "name": "skylake-avx512",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1093,7 +1093,7 @@
             "versions": "18.0:",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1172,7 +1172,7 @@
             "versions": "19.0.1:",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1278,7 +1278,7 @@
             "name": "icelake-client",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1336,7 +1336,7 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse2"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1400,7 +1400,7 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse3"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1468,7 +1468,7 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse3"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1537,7 +1537,7 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse4.2"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1610,7 +1610,7 @@
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1688,7 +1688,7 @@
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1767,7 +1767,7 @@
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
@@ -1849,7 +1849,7 @@
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "oneapi": [
           {
             "versions": ":",
