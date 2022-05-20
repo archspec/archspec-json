@@ -1615,9 +1615,9 @@
           {
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
-          }
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
+          }
         ],
         "dpcpp": [
           {
@@ -1693,9 +1693,9 @@
           {
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
-          }
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
+          }
         ],
         "dpcpp": [
           {
@@ -1772,9 +1772,9 @@
           {
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
-          }
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
+          }
         ],
         "dpcpp": [
           {
@@ -1841,7 +1841,7 @@
             "name": "znver3",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
         "intel": [
           {
             "versions": "16.0:",
@@ -1854,9 +1854,9 @@
           {
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
-          }
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
+          }
         ],
         "dpcpp": [
           {
