@@ -2210,7 +2210,7 @@
       }
     },
     "graviton2": {
-      "from": ["aarch64"],
+      "from": ["graviton"],
       "vendor": "ARM",
       "features": [
           "fp",
@@ -2281,7 +2281,7 @@
       }
     },
     "graviton3": {
-      "from": ["aarch64"],
+      "from": ["graviton2"],
       "vendor": "ARM",
       "features": [
 	  "fp",
