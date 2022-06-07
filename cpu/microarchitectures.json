@@ -2284,7 +2284,7 @@
       "from": ["aarch64"],
       "vendor": "ARM",
       "features": [
-	        "fp",
+	  "fp",
           "asimd",
           "evtstrm",
           "aes",
