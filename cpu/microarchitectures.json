@@ -2631,6 +2631,12 @@
                   "versions": "22:",
                   "flags" : "-march=armv8.4-a+sve+ssbs+fp16+bf16+crypto+i8mm+rng"
               }
+          ],
+          "nvhpc" : [
+            {
+              "versions": "20.9:",
+              "flags": "-tp native"
+            }
           ]
       }
     },
