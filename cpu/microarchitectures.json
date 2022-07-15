@@ -1099,8 +1099,7 @@
         "avx512cd",
         "avx512vbmi",
         "avx512ifma",
-        "sha",
-        "umip"
+        "sha"
       ],
       "compilers": {
         "gcc": [
@@ -1263,7 +1262,6 @@
         "avx512vbmi",
         "avx512ifma",
         "sha_ni",
-        "umip",
         "clwb",
         "rdpid",
         "gfni",
