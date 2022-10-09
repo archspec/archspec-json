@@ -2265,7 +2265,7 @@
       }
     },
     "a64fx": {
-      "from": ["aarch64"],
+      "from": ["armv8.2a"],
       "vendor": "Fujitsu",
       "features": [
         "fp",
@@ -2334,7 +2334,7 @@
       }
     },
     "cortex_a72": {
-      "from": ["armv8.2a"],
+      "from": ["aarch64"],
       "vendor": "ARM",
       "features": [
           "fp",
