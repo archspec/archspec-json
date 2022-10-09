@@ -2218,7 +2218,7 @@
       }
     },
     "thunderx2": {
-      "from": ["aarch64"],
+      "from": ["armv8.1a"],
       "vendor": "Cavium",
       "features": [
         "fp",
@@ -2334,7 +2334,7 @@
       }
     },
     "cortex_a72": {
-      "from": ["aarch64"],
+      "from": ["armv8.2a"],
       "vendor": "ARM",
       "features": [
           "fp",
