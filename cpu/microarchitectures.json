@@ -2093,6 +2093,130 @@
         ]
       }
     },
+    "armv8.1a": {
+      "from": ["aarch64"],
+      "vendor": "generic",
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "5:",
+            "flags": "-march=armv8.1-a -mtune=generic"
+          }
+        ],
+        "clang": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.1-a -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.1-a -mtune=generic"
+          }
+        ],
+        "arm": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.1-a -mtune=generic"
+          }
+        ]
+      }
+    },
+    "armv8.2a": {
+      "from": ["armv8.1a"],
+      "vendor": "generic",
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "6:",
+            "flags": "-march=armv8.2-a -mtune=generic"
+          }
+        ],
+        "clang": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.2-a -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.2-a -mtune=generic"
+          }
+        ],
+        "arm": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.2-a -mtune=generic"
+          }
+        ]
+      }
+    },
+    "armv8.3a": {
+      "from": ["armv8.2a"],
+      "vendor": "generic",
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "6:",
+            "flags": "-march=armv8.3-a -mtune=generic"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "6:",
+            "flags": "-march=armv8.3-a -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.3-a -mtune=generic"
+          }
+        ],
+        "arm": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.3-a -mtune=generic"
+          }
+        ]
+      }
+    },
+    "armv8.4a": {
+      "from": ["armv8.3a"],
+      "vendor": "generic",
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "8:",
+            "flags": "-march=armv8.4-a -mtune=generic"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "8:",
+            "flags": "-march=armv8.4-a -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.4-a -mtune=generic"
+          }
+        ],
+        "arm": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.4-a -mtune=generic"
+          }
+        ]
+      }
+    },
     "thunderx2": {
       "from": ["aarch64"],
       "vendor": "Cavium",
@@ -2247,7 +2371,7 @@
       }
     },
     "neoverse_n1": {
-      "from": ["cortex_a72"],
+      "from": ["cortex_a72", "armv8.2a"],
       "vendor": "ARM",
       "features": [
           "fp",
