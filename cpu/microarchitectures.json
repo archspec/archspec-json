@@ -2585,7 +2585,11 @@
           "pacg",
           "dcpodp",
           "flagm2",
-          "frint"
+          "frint",
+          "ecv",
+          "bf16",
+          "i8mm",
+          "bti"
       ],
       "compilers": {
         "gcc": [
