@@ -2209,7 +2209,7 @@
         ]
       }
     },
-    "graviton": {
+    "cortex_a72": {
       "from": ["aarch64"],
       "vendor": "ARM",
       "features": [
@@ -2235,19 +2235,19 @@
               },
               {
                   "versions": "6:",
-                  "flags" : "-march=armv8-a+crc+crypto -mtune=cortex-a72"
+                  "flags" : "-mcpu=cortex-a72"
               }
           ],
           "clang" : [
               {
                   "versions": "3.9:",
-                  "flags" : "-march=armv8-a+crc+crypto"
+                  "flags" : "-mcpu=cortex-a72"
               }
           ]
       }
     },
-    "graviton2": {
-      "from": ["graviton"],
+    "neoverse_n1": {
+      "from": ["cortex_a72"],
       "vendor": "ARM",
       "features": [
           "fp",
@@ -2296,7 +2296,7 @@
               },
               {
                   "versions": "9.0:",
-                  "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto -mtune=neoverse-n1"
+                  "flags" : "-mcpu=neoverse-n1"
               }
           ],
           "clang" : [
@@ -2307,6 +2307,10 @@
               {
                   "versions": "5:",
                   "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
+              },
+              {
+                  "versions": "10:",
+                  "flags" : "-mcpu=neoverse-n1"
               }
           ],
           "arm" : [
@@ -2317,11 +2321,11 @@
           ]
       }
     },
-    "graviton3": {
-      "from": ["graviton2"],
+    "neoverse_v1": {
+      "from": ["neoverse_n1"],
       "vendor": "ARM",
       "features": [
-	  "fp",
+	      "fp",
           "asimd",
           "evtstrm",
           "aes",
@@ -2384,11 +2388,11 @@
               },
               {
                   "versions": "9.0:9.9",
-                  "flags" : "-march=armv8.4-a+crypto+rcpc+sha3+sm4+sve+rng+nodotprod -mtune=neoverse-v1"
+                  "flags" : "-mcpu=neoverse-v1"
               },
 	            {
                   "versions": "10.0:",
-                  "flags" : "-march=armv8.4-a+crypto+rcpc+sha3+sm4+sve+rng+ssbs+i8mm+bf16+nodotprod -mtune=neoverse-v1"
+                  "flags" : "-mcpu=neoverse-v1"
               }
 
           ],
@@ -2404,6 +2408,10 @@
               {
                   "versions": "11:",
                   "flags" : "-march=armv8.4-a+sve+ssbs+fp16+bf16+crypto+i8mm+rng"
+              },
+              {
+                  "versions": "12:",
+                  "flags" : "-mcpu=neoverse-v1"
               }
           ],
           "arm" : [
