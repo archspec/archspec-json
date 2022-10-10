@@ -2449,7 +2449,7 @@
       "from": ["neoverse_n1"],
       "vendor": "ARM",
       "features": [
-	      "fp",
+          "fp",
           "asimd",
           "evtstrm",
           "aes",
