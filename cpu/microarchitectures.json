@@ -85,7 +85,7 @@
         "intel": [
           {
             "versions": ":",
-            "name": "x86-64",
+            "name": "pentium4",
             "flags": "-march={name} -mtune=generic"
           }
         ],
