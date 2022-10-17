@@ -82,6 +82,13 @@
             "flags": "-march={name} -mtune=generic"
           }
         ],
+        "intel": [
+          {
+            "versions": ":",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
         "oneapi": [
           {
             "versions": ":",
