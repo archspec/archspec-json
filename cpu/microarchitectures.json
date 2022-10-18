@@ -2217,6 +2217,37 @@
         ]
       }
     },
+    "armv8.5a": {
+      "from": ["armv8.4a"],
+      "vendor": "generic",
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "9:",
+            "flags": "-march=armv8.5-a -mtune=generic"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "11:",
+            "flags": "-march=armv8.5-a -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.5-a -mtune=generic"
+          }
+        ],
+        "arm": [
+          {
+            "versions": ":",
+            "flags": "-march=armv8.5-a -mtune=generic"
+          }
+        ]
+      }
+    },
     "thunderx2": {
       "from": ["armv8.1a"],
       "vendor": "Cavium",
@@ -2551,7 +2582,7 @@
       }
     },
     "m1": {
-      "from": ["aarch64"],
+      "from": ["armv8.4a"],
       "vendor": "Apple",
       "features": [
           "fp",
@@ -2621,7 +2652,7 @@
       }
     },
     "m2": {
-      "from": ["m1"],
+      "from": ["m1", "armv8.5a"],
       "vendor": "Apple",
       "features": [
           "fp",
@@ -2661,13 +2692,13 @@
         "gcc": [
           {
             "versions": "8.0:",
-            "flags" : "-march=armv8.4-a -mtune=generic"
+            "flags" : "-march=armv8.5-a -mtune=generic"
           }
         ],
         "clang" : [
           {
             "versions": "9.0:12.0",
-            "flags" : "-march=armv8.4-a"
+            "flags" : "-march=armv8.5-a"
           },
           {
             "versions": "13.0:",
@@ -2677,7 +2708,7 @@
         "apple-clang": [
           {
             "versions": "11.0:12.5",
-            "flags" : "-march=armv8.4-a"
+            "flags" : "-march=armv8.5-a"
           },
           {
             "versions": "13.0:",
