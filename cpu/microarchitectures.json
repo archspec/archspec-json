@@ -2712,7 +2712,7 @@
           },
           {
             "versions": "13.0:",
-            "flags" : "-mcpu=apple-m1"
+            "flags" : "-mcpu=vortex"
           }
         ]
       }
