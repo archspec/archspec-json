@@ -2368,7 +2368,6 @@
         "fp",
         "asimd",
         "evtstrm",
-        "pmull",
         "sha1",
         "sha2",
         "crc32",
