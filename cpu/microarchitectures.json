@@ -961,21 +961,21 @@
         ],
         "intel": [
           {
-            "versions": "18.0:",
+            "versions": "18.0:2021.2",
             "name": "knl",
             "flags": "-march={name} -mtune={name}"
           }
         ],
         "oneapi": [
           {
-            "versions": ":",
+            "versions": ":2021.2",
             "name": "knl",
             "flags": "-march={name} -mtune={name}"
           }
         ],
         "dpcpp": [
           {
-            "versions": ":",
+            "versions": ":2021.2",
             "name": "knl",
             "flags": "-march={name} -mtune={name}"
           }
