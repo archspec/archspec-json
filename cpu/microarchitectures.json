@@ -2617,7 +2617,15 @@
                   "flags" : "-march=armv8.2-a+crypto+fp16 -mtune=cortex-a72"
               },
               {
-                  "versions": "8.0:9.3",
+                  "versions": "8.0:8.4",
+                  "flags" : "-march=armv8.2-a+fp16+dotprod+crypto -mtune=cortex-a72"
+              },
+              {
+                  "versions": "8.5:8.9",
+                  "flags"  -mcpu=neoverse-v1"
+              },
+              {
+                  "versions": "9.0:9.3",
                   "flags" : "-march=armv8.2-a+fp16+dotprod+crypto -mtune=cortex-a72"
               },
               {
