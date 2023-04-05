@@ -2782,6 +2782,10 @@
           {
             "versions": "13.0:",
             "flags" : "-mcpu=apple-m1"
+          },
+          {
+            "versions": "16.0:",
+            "flags" : "-mcpu=apple-m2"
           }
         ],
         "apple-clang": [
