@@ -2622,7 +2622,7 @@
               },
               {
                   "versions": "8.5:8.9",
-                  "flags"  -mcpu=neoverse-v1"
+                  "flags" : "-mcpu=neoverse-v1"
               },
               {
                   "versions": "9.0:9.3",
