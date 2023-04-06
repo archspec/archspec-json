@@ -228,6 +228,13 @@
             "name": "x86-64-v3",
             "flags": "-march={name} -mtune=generic"
           }
+        ],
+        "nvhpc" : [
+          {
+            "versions": ":",
+            "name": "px",
+            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave"
+          }
         ]
       }
     },
@@ -303,6 +310,13 @@
             "versions": "2021.2.0:",
             "name": "x86-64-v4",
             "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "px",
+            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
           }
         ]
       }
@@ -609,6 +623,12 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "flags": "-tp {name}"
+          }
         ]
       }
     },
@@ -680,6 +700,12 @@
           {
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -758,6 +784,12 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "flags": "-tp {name}"
+          }
         ]
       }
     },
@@ -826,6 +858,13 @@
           {
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "haswell",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -898,6 +937,13 @@
           {
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "haswell",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -1063,6 +1109,13 @@
             "name": "skylake-avx512",
             "flags": "-march={name} -mtune={name}"
           }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "skylake",
+            "flags": "-tp {name}"
+          }
         ]
       }
     },
@@ -1143,6 +1196,13 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "skylake",
+            "flags": "-tp {name}"
+          }
         ]
       }
     },
@@ -1221,6 +1281,13 @@
           {
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "skylake",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -1328,6 +1395,13 @@
             "versions": ":",
             "name": "icelake-client",
             "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "skylake",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -1451,6 +1525,12 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse3"
           }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "flags": "-tp {name}"
+          }
         ]
       }
     },
@@ -1518,6 +1598,12 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse3"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -1587,6 +1673,13 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse4.2"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "piledriver",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -1662,6 +1755,13 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "piledriver",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -1741,6 +1841,12 @@
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
           }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "flags": "-tp {name}"
+          }
         ]
       }
     },
@@ -1819,6 +1925,12 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": "20.5:",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -1902,6 +2014,12 @@
             "name": "core-avx2",
             "flags": "-march={name} -mtune={name}"
           }
+        ],
+        "nvhpc": [
+          {
+            "versions": "21.11:",
+            "flags": "-tp {name}"
+          }
         ]
       }
     },
@@ -1982,7 +2100,14 @@
             "name": "znver4",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
+        "nvhpc": [
+          {
+            "versions": "21.11:",
+	    "name": "zen3",
+            "flags": "-tp {name}",
+	    "warnings": "zen4 is not fully supported by nvhpc yet, falling back to zen3"
+          }
       }
     },
     "ppc64": {
@@ -2116,6 +2241,13 @@
             "name": "power8",
             "flags": "-mcpu={name} -mtune={name}"
           }
+        ],
+	"nvhpc": [
+          {
+            "versions": ":",
+            "name": "pwr8",
+            "flags": "-tp {name}"
+          }
         ]
       }
     },
@@ -2138,6 +2270,13 @@
             "family": "ppc64le",
             "name": "power9",
             "flags": "-mcpu={name} -mtune={name}"
+          }
+        ],
+	"nvhpc": [
+          {
+            "versions": ":",
+            "name": "pwr9",
+            "flags": "-tp {name}"
           }
         ]
       }
@@ -2552,6 +2691,13 @@
                   "versions": "20:",
                   "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
               }
+          ],
+          "nvhpc" : [
+              {
+                  "versions": "22.5:",
+                  "name": "neoverse-n1",
+                  "flags": "-tp {name}"
+              }
           ]
       }
     },
@@ -2672,6 +2818,13 @@
 	            {
                   "versions": "22:",
                   "flags" : "-march=armv8.4-a+sve+ssbs+fp16+bf16+crypto+i8mm+rng"
+              }
+          ],
+          "nvhpc" : [
+              {
+                  "versions": "22.5:",
+                  "name": "neoverse-n1",
+                  "flags": "-tp {name}"
               }
           ]
       }
