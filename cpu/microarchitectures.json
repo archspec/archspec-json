@@ -2108,7 +2108,7 @@
             "flags": "-tp {name}",
 	    "warnings": "zen4 is not fully supported by nvhpc yet, falling back to zen3"
           }
-	],
+	]
       }
     },
     "ppc64": {
