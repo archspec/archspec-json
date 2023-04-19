@@ -102,7 +102,8 @@
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "x86_64_v2": {
@@ -157,7 +158,8 @@
             "name": "x86-64-v2",
             "flags": "-march={name} -mtune=generic"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "x86_64_v3": {
@@ -372,7 +374,8 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "core2": {
@@ -426,7 +429,8 @@
             "versions": ":",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "nehalem": {
@@ -491,7 +495,8 @@
             "name": "corei7",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "westmere": {
@@ -553,7 +558,8 @@
             "name": "corei7",
             "flags": "-march={name} -mtune={name}"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "sandybridge": {
@@ -1461,7 +1467,8 @@
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "flags": "-msse2"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "bulldozer": {
@@ -2213,7 +2220,8 @@
             "versions": ":",
             "flags": "-mcpu={name} -mtune={name}"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "power8le": {
@@ -2310,7 +2318,8 @@
             "versions": ":",
             "flags": "-march=armv8-a -mtune=generic"
           }
-        ]
+        ],
+	"nvhpc": []
       }
     },
     "armv8.1a": {
