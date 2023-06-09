@@ -145,6 +145,13 @@
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3"
           }
         ],
+        "intel": [
+          {
+            "versions": "16.0:",
+            "name": "corei7",
+            "flags": "-march={name} -mtune=generic -mpopcnt"
+          }
+        ],
         "oneapi": [
           {
             "versions": "2021.2.0:",
@@ -215,6 +222,13 @@
             "versions": "8.0:",
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "intel": [
+          {
+            "versions": "16.0:",
+            "name": "core-avx2",
+            "flags": "-march={name} -mtune={name} -fma -mf16c"
           }
         ],
         "oneapi": [
@@ -299,6 +313,13 @@
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
           }
+        ],
+        "intel": [
+            {
+            "versions": "16.0:",
+            "name": "core-avx512",
+            "flags": "-march={name} -mtune={name}"
+            }
         ],
         "oneapi": [
           {
