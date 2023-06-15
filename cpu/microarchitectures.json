@@ -2104,12 +2104,12 @@
       "compilers": {
         "gcc": [
           {
-            "versions": "10.3:13.0",
+            "versions": "10.3:12.2",
             "name": "znver3",
             "flags": "-march={name} -mtune={name} -mavx512f -mavx512dq -mavx512ifma -mavx512cd -mavx512bw -mavx512vl -mavx512vbmi -mavx512vbmi2 -mavx512vnni -mavx512bitalg"
           },
           {
-            "versions": "13.1:",
+            "versions": "12.3:",
             "name": "znver4",
             "flags": "-march={name} -mtune={name}"
           }
@@ -2824,7 +2824,7 @@
                   "flags" : "-march=armv8.2-a+fp16+dotprod+crypto -mtune=cortex-a72"
               },
               {
-                  "versions": "10.2",
+                  "versions": "10.2:10.2.99",
                   "flags" : "-mcpu=zeus"
               },
               {
