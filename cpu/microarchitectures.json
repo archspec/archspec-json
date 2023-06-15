@@ -317,7 +317,7 @@
         "intel": [
             {
             "versions": "16.0:",
-            "name": "core-avx512",
+            "name": "skylake-avx512",
             "flags": "-march={name} -mtune={name}"
             }
         ],
