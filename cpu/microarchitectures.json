@@ -2086,8 +2086,6 @@
         "pku",
         "gfni",
         "flush_l1d",
-        "erms",
-        "avic",
         "avx512f",
         "avx512dq",
         "avx512ifma",
