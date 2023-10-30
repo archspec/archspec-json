@@ -3090,6 +3090,12 @@
                   "flags" : "-mcpu=neoverse-v2 -msve-vector-bits=128"
               }
           ],
+          "arm" : [
+              {
+                  "versions": "23.04.0:",
+                  "flags" : "-mcpu=neoverse-v2"
+              }
+          ],
           "nvhpc" : [
               {
                   "versions": "23.3:",
