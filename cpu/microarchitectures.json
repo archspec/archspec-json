@@ -2813,8 +2813,12 @@
           ],
           "arm" : [
               {
-                  "versions": "20:",
+                  "versions": "20:21.9",
                   "flags" : "-march=armv8.2-a+fp16+rcpc+dotprod+crypto"
+              },
+              {
+                  "versions": "22:",
+                  "flags" : "-mcpu=neoverse-n1"
               }
           ],
           "nvhpc" : [
@@ -2942,7 +2946,7 @@
               },
 	            {
                   "versions": "22:",
-                  "flags" : "-march=armv8.4-a+sve+ssbs+fp16+bf16+crypto+i8mm+rng"
+                  "flags" : "-mcpu=neoverse-v1"
               }
           ],
           "nvhpc" : [
