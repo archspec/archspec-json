@@ -2318,6 +2318,26 @@
         ]
       }
     },
+    "power10": {
+      "from": ["power9"],
+      "vendor": "IBM",
+      "generation": 10,
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "11.1:",
+            "flags": "-mcpu={name} -mtune={name}"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "11.0:",
+            "flags": "-mcpu={name} -mtune={name}"
+          }
+        ]
+      }
+    },
     "ppc64le": {
       "from": [],
       "vendor": "generic",
@@ -2401,6 +2421,29 @@
             "versions": ":",
             "name": "pwr9",
             "flags": "-tp {name}"
+          }
+        ]
+      }
+    },
+    "power10le": {
+      "from": ["power9le"],
+      "vendor": "IBM",
+      "generation": 10,
+      "features": [],
+      "compilers": {
+        "gcc": [
+          {
+            "name": "power10",
+            "versions": "11.1:",
+            "flags": "-mcpu={name} -mtune={name}"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "11.0:",
+            "family": "ppc64le",
+            "name": "power10",
+            "flags": "-mcpu={name} -mtune={name}"
           }
         ]
       }
