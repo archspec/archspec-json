@@ -3053,41 +3053,41 @@
               },
               {
                   "versions": "8.0:8.99",
-                  "flags" : "-march=armv8.4-a+sve -mtune=cortex-a72 -msve-vector-bits=128"
+                  "flags" : "-march=armv8.4-a+sve -mtune=cortex-a72"
               },
               {
                   "versions": "9.0:9.99",
-                  "flags" : "-march=armv8.5-a+sve -mtune=cortex-a76 -msve-vector-bits=128"
+                  "flags" : "-march=armv8.5-a+sve -mtune=cortex-a76"
               },
               {
                   "versions": "10.0:11.99",
-                  "flags" : "-march=armv8.5-a+sve+sve2+i8mm+bf16 -mtune=cortex-a77 -msve-vector-bits=128"
+                  "flags" : "-march=armv8.5-a+sve+sve2+i8mm+bf16 -mtune=cortex-a77"
               },
               {
                   "versions": "12.0:12.99",
-                  "flags" : "-march=armv9-a+i8mm+bf16 -mtune=cortex-a710 -msve-vector-bits=128"
+                  "flags" : "-march=armv9-a+i8mm+bf16 -mtune=cortex-a710"
               },
 	      {
                   "versions": "13.0:",
-                  "flags" : "-mcpu=neoverse-v2 -msve-vector-bits=128"
+                  "flags" : "-mcpu=neoverse-v2"
               }
           ],
           "clang" : [
               {
                   "versions": "9.0:10.99",
-                  "flags" : "-march=armv8.5-a+sve -msve-vector-bits=128"
+                  "flags" : "-march=armv8.5-a+sve"
               },
               {
                   "versions": "11.0:13.99",
-                  "flags" : "-march=armv8.5-a+sve+sve2+i8mm+bf16 -msve-vector-bits=128"
+                  "flags" : "-march=armv8.5-a+sve+sve2+i8mm+bf16"
               },
               {
                   "versions": "14.0:15.99",
-                  "flags" : "-march=armv9-a+i8mm+bf16 -msve-vector-bits=128"
+                  "flags" : "-march=armv9-a+i8mm+bf16"
               },
               {
                   "versions": "16.0:",
-                  "flags" : "-mcpu=neoverse-v2 -msve-vector-bits=128"
+                  "flags" : "-mcpu=neoverse-v2"
               }
           ],
           "arm" : [
