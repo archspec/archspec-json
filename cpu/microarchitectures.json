@@ -2319,7 +2319,7 @@
       }
     },
     "power10": {
-      "from": ["power10"],
+      "from": ["power9"],
       "vendor": "IBM",
       "generation": 10,
       "features": [],
