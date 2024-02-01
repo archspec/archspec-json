@@ -2080,8 +2080,7 @@
         "popcnt",
         "clwb",
         "vaes",
-        "vpclmulqdq",
-        "pku"
+        "vpclmulqdq"
       ],
       "compilers": {
         "gcc": [
@@ -2169,7 +2168,6 @@
         "clwb",
         "vaes",
         "vpclmulqdq",
-        "pku",
         "gfni",
         "flush_l1d",
         "avx512f",
