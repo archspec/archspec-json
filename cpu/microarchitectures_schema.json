@@ -105,6 +105,32 @@
         }
       },
       "additionalProperties": false
+    },
+    "models": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "x86_64": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "family": {
+                "type": "string"
+              },
+              "model": {
+                "type": "string"
+              },
+              "uarch": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
     }
   }
 }
