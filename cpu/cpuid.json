@@ -589,8 +589,7 @@
           "name": "pks",
           "register": "ecx",
           "bit": 31
-        },
-
+        }
       ]
     }
   ]
