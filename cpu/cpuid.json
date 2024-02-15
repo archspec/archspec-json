@@ -589,6 +589,56 @@
           "name": "pks",
           "register": "ecx",
           "bit": 31
+        },
+        {
+          "name": "fsrm",
+          "register": "edx",
+          "bit": 4
+        },
+        {
+          "name": "avx512_vp2intersect",
+          "register": "edx",
+          "bit": 8
+        },
+        {
+          "name": "md_clear",
+          "register": "edx",
+          "bit": 10
+        },
+        {
+          "name": "serialize",
+          "register": "edx",
+          "bit": 14
+        },
+        {
+          "name": "tsxldtrk",
+          "register": "edx",
+          "bit": 16
+        },
+        {
+          "name": "amx_bf16",
+          "register": "edx",
+          "bit": 22
+        },
+        {
+          "name": "avx512_fp16",
+          "register": "edx",
+          "bit": 23
+        },
+        {
+          "name": "amx_tile",
+          "register": "edx",
+          "bit": 24
+        },
+        {
+          "name": "amx_int8",
+          "register": "edx",
+          "bit": 25
+        },
+        {
+          "name": "ssbd",
+          "register": "edx",
+          "bit": 31
         }
       ]
     }
