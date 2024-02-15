@@ -641,6 +641,124 @@
           "bit": 31
         }
       ]
+    },
+    {
+      "description": "https://en.wikipedia.org/wiki/CPUID#EAX=7,_ECX=0:_Extended_Features",
+      "input": {
+        "eax": 7,
+        "ecx": 1
+      },
+      "bits": [
+        {
+          "name": "sha512",
+          "register": "eax",
+          "bit": 0
+        },
+        {
+          "name": "sm3",
+          "register": "eax",
+          "bit": 1
+        },
+        {
+          "name": "sm4",
+          "register": "eax",
+          "bit": 2
+        },
+        {
+          "name": "rao_int",
+          "register": "eax",
+          "bit": 3
+        },
+        {
+          "name": "avx_vnni",
+          "register": "eax",
+          "bit": 4
+        },
+        {
+          "name": "avx512_bf16",
+          "register": "eax",
+          "bit": 5
+        },
+        {
+          "name": "cmpccxadd",
+          "register": "eax",
+          "bit": 7
+        },
+        {
+          "name": "arch_perfmon_ext",
+          "register": "eax",
+          "bit": 8
+        },
+        {
+          "name": "fzrm",
+          "register": "eax",
+          "bit": 10
+        },
+        {
+          "name": "fsrs",
+          "register": "eax",
+          "bit": 11
+        },
+        {
+          "name": "fsrc",
+          "register": "eax",
+          "bit": 12
+        },
+        {
+          "name": "lkgs",
+          "register": "eax",
+          "bit": 18
+        },
+        {
+          "name": "amx_fp16",
+          "register": "eax",
+          "bit": 21
+        },
+        {
+          "name": "avx_ifma",
+          "register": "eax",
+          "bit": 23
+        },
+        {
+          "name": "lam",
+          "register": "eax",
+          "bit": 26
+        }
+      ]
+    },
+    {
+      "description": "https://en.wikipedia.org/wiki/CPUID#EAX=0Dh:_XSAVE_features_and_state-components",
+      "input": {
+        "eax": 13,
+        "ecx": 1
+      },
+      "bits": [
+        {
+          "name": "xsaveopt",
+          "register": "eax",
+          "bit": 0
+        },
+        {
+          "name": "xsavec",
+          "register": "eax",
+          "bit": 1
+        },
+        {
+          "name": "xgetbv1",
+          "register": "eax",
+          "bit": 2
+        },
+        {
+          "name": "xsaves",
+          "register": "eax",
+          "bit": 3
+        },
+        {
+          "name": "xfd",
+          "register": "eax",
+          "bit": 4
+        }
+      ]
     }
   ]
 }
