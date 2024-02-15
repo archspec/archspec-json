@@ -1,0 +1,327 @@
+{
+  "vendor": {
+    "description": "https://en.wikipedia.org/wiki/CPUID#EAX=0:_Highest_Function_Parameter_and_Manufacturer_ID",
+    "input": {
+      "eax": 0,
+      "ecx": 0
+    }
+  },
+  "highest_extension_support": {
+    "description": "https://en.wikipedia.org/wiki/CPUID#EAX=80000000h:_Get_Highest_Extended_Function_Implemented",
+    "input": {
+      "eax": 2147483648,
+      "ecx": 0
+    }
+  },
+  "flags": [
+    {
+      "description": "https://en.wikipedia.org/wiki/CPUID#EAX=1:_Processor_Info_and_Feature_Bits",
+      "input": {
+        "eax": 1,
+        "ecx": 0
+      },
+      "bits": [
+        {
+          "name": "fpu",
+          "register": "edx",
+          "bit": 0
+        },
+        {
+          "name": "vme",
+          "register": "edx",
+          "bit": 1
+        },
+        {
+          "name": "de",
+          "register": "edx",
+          "bit": 2
+        },
+        {
+          "name": "pse",
+          "register": "edx",
+          "bit": 3
+        },
+        {
+          "name": "tsc",
+          "register": "edx",
+          "bit": 4
+        },
+        {
+          "name": "msr",
+          "register": "edx",
+          "bit": 5
+        },
+        {
+          "name": "pae",
+          "register": "edx",
+          "bit": 6
+        },
+        {
+          "name": "mce",
+          "register": "edx",
+          "bit": 7
+        },
+        {
+          "name": "cx8",
+          "register": "edx",
+          "bit": 8
+        },
+        {
+          "name": "apic",
+          "register": "edx",
+          "bit": 9
+        },
+        {
+          "name": "sep",
+          "register": "edx",
+          "bit": 11
+        },
+        {
+          "name": "mtrr",
+          "register": "edx",
+          "bit": 12
+        },
+        {
+          "name": "pge",
+          "register": "edx",
+          "bit": 13
+        },
+        {
+          "name": "mca",
+          "register": "edx",
+          "bit": 14
+        },
+        {
+          "name": "cmov",
+          "register": "edx",
+          "bit": 15
+        },
+        {
+          "name": "pat",
+          "register": "edx",
+          "bit": 16
+        },
+        {
+          "name": "pse36",
+          "register": "edx",
+          "bit": 17
+        },
+        {
+          "name": "pn",
+          "register": "edx",
+          "bit": 18
+        },
+        {
+          "name": "clflush",
+          "register": "edx",
+          "bit": 19
+        },
+        {
+          "name": "dts",
+          "register": "edx",
+          "bit": 21
+        },
+        {
+          "name": "acpi",
+          "register": "edx",
+          "bit": 22
+        },
+        {
+          "name": "mmx",
+          "register": "edx",
+          "bit": 23
+        },
+        {
+          "name": "fxsr",
+          "register": "edx",
+          "bit": 24
+        },
+        {
+          "name": "sse",
+          "register": "edx",
+          "bit": 25
+        },
+        {
+          "name": "sse2",
+          "register": "edx",
+          "bit": 26
+        },
+        {
+          "name": "ss",
+          "register": "edx",
+          "bit": 27
+        },
+        {
+          "name": "ht",
+          "register": "edx",
+          "bit": 28
+        },
+        {
+          "name": "tm",
+          "register": "edx",
+          "bit": 29
+        },
+        {
+          "name": "ia64",
+          "register": "edx",
+          "bit": 30
+        },
+        {
+          "name": "pbe",
+          "register": "edx",
+          "bit": 31
+        },
+        {
+          "name": "pni",
+          "register": "ecx",
+          "bit": 0
+        },
+        {
+          "name": "pclmulqdq",
+          "register": "ecx",
+          "bit": 1
+        },
+        {
+          "name": "dtes64",
+          "register": "ecx",
+          "bit": 2
+        },
+        {
+          "name": "monitor",
+          "register": "ecx",
+          "bit": 3
+        },
+        {
+          "name": "ds_cpl",
+          "register": "ecx",
+          "bit": 4
+        },
+        {
+          "name": "vmx",
+          "register": "ecx",
+          "bit": 5
+        },
+        {
+          "name": "smx",
+          "register": "ecx",
+          "bit": 6
+        },
+        {
+          "name": "est",
+          "register": "ecx",
+          "bit": 7
+        },
+        {
+          "name": "tm2",
+          "register": "ecx",
+          "bit": 8
+        },
+        {
+          "name": "ssse3",
+          "register": "ecx",
+          "bit": 9
+        },
+        {
+          "name": "cid",
+          "register": "ecx",
+          "bit": 10
+        },
+        {
+          "name": "fma",
+          "register": "ecx",
+          "bit": 12
+        },
+        {
+          "name": "cx16",
+          "register": "ecx",
+          "bit": 13
+        },
+        {
+          "name": "xtpr",
+          "register": "ecx",
+          "bit": 14
+        },
+        {
+          "name": "pdcm",
+          "register": "ecx",
+          "bit": 15
+        },
+        {
+          "name": "pcid",
+          "register": "ecx",
+          "bit": 17
+        },
+        {
+          "name": "dca",
+          "register": "ecx",
+          "bit": 18
+        },
+        {
+          "name": "sse4_1",
+          "register": "ecx",
+          "bit": 19
+        },
+        {
+          "name": "sse4_2",
+          "register": "ecx",
+          "bit": 20
+        },
+        {
+          "name": "x2apic",
+          "register": "ecx",
+          "bit": 21
+        },
+        {
+          "name": "movbe",
+          "register": "ecx",
+          "bit": 22
+        },
+        {
+          "name": "popcnt",
+          "register": "ecx",
+          "bit": 23
+        },
+        {
+          "name": "tscdeadline",
+          "register": "ecx",
+          "bit": 24
+        },
+        {
+          "name": "aes",
+          "register": "ecx",
+          "bit": 25
+        },
+        {
+          "name": "xsave",
+          "register": "ecx",
+          "bit": 26
+        },
+        {
+          "name": "osxsave",
+          "register": "ecx",
+          "bit": 27
+        },
+        {
+          "name": "avx",
+          "register": "ecx",
+          "bit": 28
+        },
+        {
+          "name": "f16c",
+          "register": "ecx",
+          "bit": 29
+        },
+        {
+          "name": "rdrnd",
+          "register": "ecx",
+          "bit": 30
+        },
+        {
+          "name": "hypervisor",
+          "register": "ecx",
+          "bit": 31
+        }
+      ]
+    }
+  ]
+}
