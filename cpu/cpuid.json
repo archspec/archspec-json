@@ -312,7 +312,7 @@
           "bit": 29
         },
         {
-          "name": "rdrnd",
+          "name": "rdrand",
           "register": "ecx",
           "bit": 30
         },
@@ -466,7 +466,7 @@
           "bit": 28
         },
         {
-          "name": "sha",
+          "name": "sha_ni",
           "register": "ebx",
           "bit": 29
         },
@@ -511,7 +511,7 @@
           "bit": 5
         },
         {
-          "name": "avx512vbmi2",
+          "name": "avx512_vbmi2",
           "register": "ecx",
           "bit": 6
         },
@@ -536,12 +536,12 @@
           "bit": 10
         },
         {
-          "name": "avx512vnni",
+          "name": "avx512_vnni",
           "register": "ecx",
           "bit": 11
         },
         {
-          "name": "avx512bitalg",
+          "name": "avx512_bitalg",
           "register": "ecx",
           "bit": 12
         },
@@ -551,7 +551,7 @@
           "bit": 13
         },
         {
-          "name": "avx512vpopcntdq",
+          "name": "avx512_vpopcntdq",
           "register": "ecx",
           "bit": 14
         },
