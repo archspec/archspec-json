@@ -15,15 +15,15 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - name: Set up Python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c
       with:
-        python-version: 3.8
+        python-version: "3.11"
     - name: Install dependencies (Common)
       run: |
-        pip install jsonschema
+        pip install check-jsonschema
     - name: Validate JSON file
       run: |
-        jsonschema -i cpu/microarchitectures.json cpu/microarchitectures_schema.json
-
+        check-jsonschema --schemafile cpu/microarchitectures_schema.json cpu/microarchitectures.json
+        check-jsonschema --schemafile cpu/cpuid_schema.json cpu/cpuid.json
