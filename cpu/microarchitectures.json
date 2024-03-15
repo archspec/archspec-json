@@ -3066,8 +3066,6 @@
 	  "flagm",
 	  "ssbs",
 	  "sb",
-	  "paca",
-	  "pacg",
 	  "dcpodp",
 	  "sve2",
 	  "sveaes",
@@ -3081,8 +3079,7 @@
 	  "svebf16",
 	  "i8mm",
 	  "bf16",
-	  "dgh",
-	  "bti"
+	  "dgh"
       ],
       "compilers" : {
           "gcc": [
