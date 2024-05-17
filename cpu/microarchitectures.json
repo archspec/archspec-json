@@ -3147,6 +3147,116 @@
           ]
       }
     },
+    "neoverse_n2": {
+      "from": ["neoverse_n1", "armv9.0a"],
+      "vendor": "ARM",
+      "features": [
+          "fp",
+	  "asimd",
+	  "evtstrm",
+	  "aes",
+	  "pmull",
+	  "sha1",
+	  "sha2",
+	  "crc32",
+	  "atomics",
+	  "fphp",
+	  "asimdhp",
+	  "cpuid",
+	  "asimdrdm",
+	  "jscvt",
+	  "fcma",
+	  "lrcpc",
+	  "dcpop",
+	  "sha3",
+	  "asimddp",
+	  "sha512",
+	  "sve",
+	  "asimdfhm",
+	  "dit",
+	  "uscat",
+	  "ilrcpc",
+	  "flagm",
+	  "ssbs",
+	  "sb",
+	  "dcpodp",
+	  "sve2",
+	  "sveaes",
+	  "svepmull",
+	  "svebitperm",
+	  "svesha3",
+	  "flagm2",
+	  "frint",
+	  "svei8mm",
+	  "svebf16",
+	  "i8mm",
+	  "bf16",
+	  "dgh"
+      ],
+      "compilers" : {
+          "gcc": [
+              {
+                  "versions": "4.8:5.99",
+                  "flags": "-march=armv8-a"
+              },
+              {
+                  "versions": "6:6.99",
+                  "flags" : "-march=armv8.1-a"
+              },
+              {
+                  "versions": "7.0:7.99",
+                  "flags" : "-march=armv8.2-a -mtune=cortex-a72"
+              },
+              {
+                  "versions": "8.0:8.99",
+                  "flags" : "-march=armv8.4-a+sve -mtune=cortex-a72"
+              },
+              {
+                  "versions": "9.0:9.99",
+                  "flags" : "-march=armv8.5-a+sve -mtune=cortex-a76"
+              },
+              {
+                  "versions": "10.0:10.99",
+                  "flags" : "-march=armv8.5-a+sve+sve2+i8mm+bf16 -mtune=cortex-a77"
+              },
+              {
+                  "versions": "11.0:",
+                  "flags" : "-mcpu=neoverse-n2"
+              }
+          ],
+          "clang" : [
+              {
+                  "versions": "9.0:10.99",
+                  "flags" : "-march=armv8.5-a+sve"
+              },
+              {
+                  "versions": "11.0:13.99",
+                  "flags" : "-march=armv8.5-a+sve+sve2+i8mm+bf16"
+              },
+              {
+                  "versions": "14.0:15.99",
+                  "flags" : "-march=armv9-a+i8mm+bf16"
+              },
+              {
+                  "versions": "16.0:",
+                  "flags" : "-mcpu=neoverse-n2"
+              }
+          ],
+          "arm" : [
+              {
+                  "versions": "23.04.0:",
+                  "flags" : "-mcpu=neoverse-n2"
+              }
+          ],
+          "nvhpc" : [
+              {
+                  "versions": "23.3:",
+                  "name": "neoverse-n1",
+                  "flags": "-tp {name}"
+              }
+          ]
+      }
+    },
     "m1": {
       "from": ["armv8.4a"],
       "vendor": "Apple",
