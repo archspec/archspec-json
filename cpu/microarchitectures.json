@@ -2820,7 +2820,8 @@
                   "flags" : "-mcpu=cortex-a72"
               }
           ]
-      }
+      },
+      "cpuid": "0x41d08"
     },
     "neoverse_n1": {
       "from": ["cortex_a72", "armv8.2a"],
@@ -2906,7 +2907,8 @@
                   "flags": "-tp {name}"
               }
           ]
-      }
+      },
+      "cpuid": "0x41d0c"
     },
     "neoverse_v1": {
       "from": ["neoverse_n1", "armv8.4a"],
@@ -3032,7 +3034,8 @@
                   "flags": "-tp {name}"
               }
           ]
-      }
+      },
+      "cpuid": "0x41d40"
     },
     "neoverse_v2": {
       "from": ["neoverse_n1", "armv9.0a"],
@@ -3149,7 +3152,8 @@
                   "flags": "-tp {name}"
               }
           ]
-      }
+      },
+      "cpuid": "0x41d4f"
     },
     "m1": {
       "from": ["armv8.4a"],

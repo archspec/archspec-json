@@ -52,6 +52,9 @@
                   }
                 }
               }
+            },
+            "cpuid": {
+              "type": "string"
             }
           },
           "required": [
