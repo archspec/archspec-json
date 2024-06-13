@@ -2225,10 +2225,14 @@
         ],
         "nvhpc": [
           {
-            "versions": "21.11:",
+            "versions": "21.11:23.8",
 	    "name": "zen3",
             "flags": "-tp {name}",
-	    "warnings": "zen4 is not fully supported by nvhpc yet, falling back to zen3"
+	    "warnings": "zen4 is not fully supported by nvhpc versions < 23.9, falling back to zen3"
+          },
+          {
+            "versions": "23.9:",
+            "flags": "-tp {name}"
           }
 	]
       }
