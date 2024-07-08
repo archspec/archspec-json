@@ -53,7 +53,7 @@
                 }
               }
             },
-            "cpuid": {
+            "cpupart": {
               "type": "string"
             }
           },

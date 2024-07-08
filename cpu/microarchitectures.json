@@ -2821,7 +2821,7 @@
               }
           ]
       },
-      "cpuid": "0x41d08"
+      "cpupart": "0xd08"
     },
     "neoverse_n1": {
       "from": ["cortex_a72", "armv8.2a"],
@@ -2908,7 +2908,7 @@
               }
           ]
       },
-      "cpuid": "0x41d0c"
+      "cpupart": "0xd0c"
     },
     "neoverse_v1": {
       "from": ["neoverse_n1", "armv8.4a"],
@@ -3035,7 +3035,7 @@
               }
           ]
       },
-      "cpuid": "0x41d40"
+      "cpupart": "0xd40"
     },
     "neoverse_v2": {
       "from": ["neoverse_n1", "armv9.0a"],
@@ -3153,7 +3153,7 @@
               }
           ]
       },
-      "cpuid": "0x41d4f"
+      "cpupart": "0xd4f"
     },
     "m1": {
       "from": ["armv8.4a"],
