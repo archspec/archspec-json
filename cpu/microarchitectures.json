@@ -3268,7 +3268,7 @@
               }
           ]
       },
-      "cpuid": "0xd49"
+      "cpupart": "0xd49"
     },
     "m1": {
       "from": ["armv8.4a"],
