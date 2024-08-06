@@ -2715,7 +2715,8 @@
             "flags": "-mcpu=thunderx2t99"
           }
         ]
-      }
+      },
+      "cpupart": "0x0af"
     },
     "a64fx": {
       "from": ["armv8.2a"],
@@ -2783,7 +2784,8 @@
             "flags": "-march=armv8.2-a+crc+crypto+fp16+sve"
           }
         ]
-      }
+      },
+      "cpupart": "0x001"
     },
     "cortex_a72": {
       "from": ["aarch64"],
@@ -3334,7 +3336,8 @@
             "flags" : "-mcpu=apple-m1"
           }
         ]
-      }
+      },
+      "cpupart": "0x022"
     },
     "m2": {
       "from": ["m1", "armv8.5a"],
@@ -3412,7 +3415,8 @@
             "flags" : "-mcpu=apple-m2"
           }
         ]
-      }
+      },
+      "cpupart": "0x032"
     },
     "arm": {
       "from": [],
