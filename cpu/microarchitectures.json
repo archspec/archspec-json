@@ -3182,7 +3182,6 @@
 	  "sha512",
 	  "sve",
 	  "asimdfhm",
-	  "dit",
 	  "uscat",
 	  "ilrcpc",
 	  "flagm",
@@ -3190,17 +3189,12 @@
 	  "sb",
 	  "dcpodp",
 	  "sve2",
-	  "sveaes",
-	  "svepmull",
-	  "svebitperm",
-	  "svesha3",
 	  "flagm2",
 	  "frint",
 	  "svei8mm",
 	  "svebf16",
 	  "i8mm",
-	  "bf16",
-	  "dgh"
+	  "bf16"
       ],
       "compilers" : {
           "gcc": [
