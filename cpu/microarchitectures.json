@@ -1482,7 +1482,6 @@
         "cldemote",
         "movdir64b",
         "movdiri",
-        "pdcm",
         "serialize",
         "waitpkg"
       ],
