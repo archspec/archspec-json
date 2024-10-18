@@ -58,7 +58,7 @@
           {
             "versions": ":4.1.2",
             "name": "x86-64",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
@@ -318,7 +318,7 @@
             {
             "versions": "16.0:",
             "name": "skylake-avx512",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
             }
         ],
         "oneapi": [
@@ -357,13 +357,13 @@
         "gcc": [
           {
             "versions": "4.0.4:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
@@ -375,25 +375,25 @@
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "16.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
 	"nvhpc": []
@@ -412,13 +412,13 @@
         "gcc": [
           {
             "versions": "4.3.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
@@ -430,25 +430,25 @@
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "16.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
 	"nvhpc": []
@@ -470,18 +470,18 @@
         "gcc": [
           {
             "versions": "4.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "4.6:4.8.5",
             "name": "corei7",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
@@ -493,28 +493,28 @@
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "16.0:",
             "name": "corei7",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
             "name": "corei7",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
             "name": "corei7",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
 	"nvhpc": []
@@ -538,13 +538,13 @@
         "gcc": [
           {
             "versions": "4.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
@@ -556,28 +556,28 @@
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "16.0:",
             "name": "corei7",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
             "name": "corei7",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
             "name": "corei7",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
 	"nvhpc": []
@@ -602,53 +602,53 @@
         "gcc": [
           {
             "versions": "4.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "4.6:4.8.5",
             "name": "corei7-avx",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "16.0:17.9.0",
             "name": "corei7-avx",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "18.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -680,53 +680,53 @@
         "gcc": [
           {
             "versions": "4.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "4.6:4.8.5",
             "name": "core-avx-i",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "16.0:17.9.0",
             "name": "core-avx-i",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "18.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -763,53 +763,53 @@
         "gcc": [
           {
             "versions": "4.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "4.8:4.8.5",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "16.0:17.9.0",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "18.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -848,43 +848,43 @@
         "gcc": [
           {
             "versions": "4.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "18.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -927,43 +927,43 @@
         "gcc": [
           {
             "versions": "6.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "18.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -1009,14 +1009,14 @@
           {
             "versions": "5.1:",
             "name": "knl",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
             "name": "knl",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
@@ -1029,28 +1029,28 @@
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "18.0:2021.2",
             "name": "knl",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":2021.2",
             "name": "knl",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":2021.2",
             "name": "knl",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ]
       }
@@ -1093,14 +1093,14 @@
           {
             "name": "skylake-avx512",
             "versions": "6.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
             "name": "skylake-avx512",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
@@ -1113,28 +1113,28 @@
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "18.0:",
             "name": "skylake-avx512",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
             "name": "skylake-avx512",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
             "name": "skylake-avx512",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -1185,43 +1185,43 @@
         "gcc": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "18.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -1271,43 +1271,43 @@
         "gcc": [
           {
             "versions": "9.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
           {
             "versions": "11.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "19.0.1:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -1371,57 +1371,57 @@
           {
             "name": "icelake-client",
             "versions": "8.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "7.0:",
             "name": "icelake-client",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "6.0:6.9",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
             "name": "icelake-client",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "apple-clang": [
           {
             "versions": "10.0.1:",
             "name": "icelake-client",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           },
           {
             "versions": "10.0.0:10.0.99",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "18.0:",
             "name": "icelake-client",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": ":",
             "name": "icelake-client",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
             "versions": ":",
             "name": "icelake-client",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -1489,31 +1489,31 @@
         "gcc": [
           {
             "versions": "11.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "12.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
           {
             "versions": "2021.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
           {
             "versions": "2021.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
           {
               "versions": "2021.2:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ]
       }
@@ -1536,21 +1536,21 @@
           {
             "name": "amdfam10",
             "versions": "4.3:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
             "name": "amdfam10",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
             "name": "amdfam10",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
@@ -1601,21 +1601,21 @@
           {
             "name": "bdver1",
             "versions": "4.7:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
             "name": "bdver1",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
             "name": "bdver1",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
@@ -1675,21 +1675,21 @@
           {
             "name": "bdver2",
             "versions": "4.7:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
             "name": "bdver2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
             "name": "bdver2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
@@ -1750,21 +1750,21 @@
           {
             "name": "bdver3",
             "versions": "4.8:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
             "name": "bdver3",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
             "name": "bdver3",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
@@ -1829,21 +1829,21 @@
           {
             "name": "bdver4",
             "versions": "4.9:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "3.9:",
             "name": "bdver4",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
             "name": "bdver4",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
@@ -1851,7 +1851,7 @@
             "versions": "16.0:",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
@@ -1859,7 +1859,7 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
@@ -1867,7 +1867,7 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -1914,21 +1914,21 @@
           {
             "name": "znver1",
             "versions": "6.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "4.0:",
             "name": "znver1",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
             "name": "znver1",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
@@ -1936,7 +1936,7 @@
             "versions": "16.0:",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
@@ -1944,7 +1944,7 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
@@ -1952,7 +1952,7 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -1999,21 +1999,21 @@
           {
             "name": "znver2",
             "versions": "9.0:",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "9.0:",
             "name": "znver2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "2.2:",
             "name": "znver2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
@@ -2021,7 +2021,7 @@
             "versions": "16.0:",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
@@ -2029,7 +2029,7 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
@@ -2037,7 +2037,7 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -2087,21 +2087,21 @@
           {
             "versions": "10.3:",
             "name": "znver3",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
           {
             "versions": "12.0:",
             "name": "znver3",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "aocc": [
           {
             "versions": "3.0:",
             "name": "znver3",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "intel": [
@@ -2109,7 +2109,7 @@
             "versions": "16.0:",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "oneapi": [
@@ -2117,7 +2117,7 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "dpcpp": [
@@ -2125,7 +2125,7 @@
             "versions": ":",
             "warnings": "Intel's compilers may or may not optimize to the same degree for non-Intel microprocessors for optimizations that are not unique to Intel microprocessors",
             "name": "core-avx2",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
@@ -2194,7 +2194,7 @@
           {
             "versions": "12.3:",
             "name": "znver4",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "clang": [
@@ -2206,7 +2206,7 @@
           {
             "versions": "16.0:",
             "name": "znver4",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
 	],
         "aocc": [
@@ -2219,7 +2219,7 @@
           {
             "versions": "4.0:",
             "name": "znver4",
-            "flags": "-march={name} -mtune={name}"
+            "flags": "-march={name}"
           }
         ],
         "nvhpc": [
