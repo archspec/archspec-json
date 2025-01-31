@@ -1275,7 +1275,7 @@
         "avx512cd",
         "avx512vbmi",
         "avx512ifma",
-        "sha"
+        "sha_ni"
       ],
       "compilers": {
         "gcc": [
@@ -1439,7 +1439,7 @@
         "lahf_lm",
         "cx16",
         "aes",
-        "sha",
+        "sha_ni",
         "pclmulqdq",
         "avx",
         "rdrand",
@@ -1556,7 +1556,7 @@
         "abm",
         "lahf_lm",
         "cx16",
-        "sha",
+        "sha_ni",
         "aes",
         "pclmulqdq",
         "avx",
