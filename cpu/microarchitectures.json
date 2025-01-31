@@ -2100,8 +2100,7 @@
         "popcnt",
         "clwb",
         "vaes",
-        "vpclmulqdq",
-        "pku"
+        "vpclmulqdq"
       ],
       "compilers": {
         "gcc": [
