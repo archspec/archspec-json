@@ -27,3 +27,10 @@ jobs:
       run: |
         check-jsonschema --schemafile cpu/microarchitectures_schema.json cpu/microarchitectures.json
         check-jsonschema --schemafile cpu/cpuid_schema.json cpu/cpuid.json
+    - name: Check JSON file formatting
+      run: |
+        diff cpu/microarchitectures_schema.json <(jq . cpu/microarchitectures_schema.json)
+        diff cpu/cpuid_schema.json <(jq . cpu/cpuid_schema.json)
+
+        diff cpu/microarchitectures.json <(jq . cpu/microarchitectures.json)
+        diff cpu/cpuid.json <(jq . cpu/cpuid.json)
