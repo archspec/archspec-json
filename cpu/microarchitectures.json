@@ -1587,6 +1587,94 @@
         ]
       }
     },
+    "graniterapids": {
+      "from": [
+        "sapphirerapids"
+      ],
+      "vendor": "GenuineIntel",
+      "features": [
+        "aes",
+        "amx_bf16",
+        "amx_int8",
+        "amx_tile",
+        "avx",
+        "avx2",
+        "avx512_bf16",
+        "avx512_bitalg",
+        "avx512_fp16",
+        "avx512_vbmi2",
+        "avx512_vnni",
+        "avx512_vpopcntdq",
+        "avx512bw",
+        "avx512cd",
+        "avx512dq",
+        "avx512f",
+        "avx512ifma",
+        "avx512vbmi",
+        "avx512vl",
+        "avx_vnni",
+        "bmi1",
+        "bmi2",
+        "cldemote",
+        "clflushopt",
+        "clwb",
+        "cx16",
+        "enqcmd",
+        "f16c",
+        "fma",
+        "fsgsbase",
+        "fxsr",
+        "gfni",
+        "mmx",
+        "movbe",
+        "movdir64b",
+        "movdiri",
+        "pconfig",
+        "pku",
+        "popcnt",
+        "rdpid",
+        "rdrand",
+        "rdseed",
+        "serialize",
+        "sse",
+        "sse2",
+        "sse4_1",
+        "sse4_2",
+        "ssse3",
+        "tsxldtrk",
+        "waitpkg",
+        "wbnoinvd",
+        "xsave",
+        "xsavec",
+        "xsaves"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "13.1:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "16.0:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "oneapi": [
+          {
+            "versions": "2023.2:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "dpcpp": [
+          {
+            "versions": "2023.2:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ]
+      }
+    },
     "k10": {
       "from": [
         "x86_64"
