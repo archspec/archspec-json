@@ -3848,6 +3848,9 @@
       "sse4.1": "sse4_1",
       "sse4.2": "sse4_2",
       "avx1.0": "avx",
+      "lahf": "lahf_lm",
+      "sha": "sha_ni",
+      "popcnt lzcnt": "abm",
       "clfsopt": "clflushopt",
       "xsave": "xsavec xsaveopt"
     }
