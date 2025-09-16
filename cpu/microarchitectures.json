@@ -3790,7 +3790,6 @@
             "versions": "16:",
             "flags": "-mcpu=apple-m3"
           }
-
         ]
       },
       "cpupart": "Unknown"
