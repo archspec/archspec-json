@@ -2234,8 +2234,7 @@
         "lahf_lm",
         "clwb",
         "vaes",
-        "vpclmulqdq",
-        "pku"
+        "vpclmulqdq"
       ],
       "compilers": {
         "gcc": [
