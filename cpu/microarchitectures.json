@@ -2425,7 +2425,6 @@
         "clflushopt",
         "clwb",
         "clzero",
-        "cppc",
         "cx16",
         "f16c",
         "flush_l1d",
