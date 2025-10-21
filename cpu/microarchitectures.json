@@ -3556,6 +3556,212 @@
       },
       "cpupart": "0xd49"
     },
+    "ampere1": {
+      "from": [
+        "neoverse_n1",
+        "armv8.6a"
+      ],
+      "vendor": "Ampere",
+      "features": [
+        "fp",
+        "asimd",
+        "evtstrm",
+        "aes",
+        "pmull",
+        "sha1",
+        "sha2",
+        "crc32",
+        "atomics",
+        "fphp",
+        "asimdhp",
+        "cpuid",
+        "asimdrdm",
+        "jscvt",
+        "fcma",
+        "lrcpc",
+        "dcpop",
+        "sha3",
+        "asimddp",
+        "sha512",
+        "asimdfhm",
+        "dit",
+        "uscat",
+        "ilrcpc",
+        "flagm",
+        "ssbs",
+        "sb",
+        "paca",
+        "pacg",
+        "dcpodp",
+        "flagm2",
+        "frint",
+        "i8mm",
+        "bf16",
+        "rng",
+        "bti",
+        "ecv"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "9.0:10.4.99",
+            "flags": "-mcpu=neoverse-n1"
+          },
+          {
+            "versions": "10.5:10.99",
+            "flags": "-mcpu=ampere1"
+          },
+          {
+            "versions": "11.0:11.2.99",
+            "flags": "-mcpu=neoverse-n1"
+          },
+          {
+            "versions": "11.3:11.99",
+            "flags": "-mcpu=ampere1"
+          },
+          {
+            "versions": "12.0:12.0.99",
+            "flags": "-mcpu=neoverse-n1"
+          },
+          {
+            "versions": "12.1:12.99",
+            "flags": "-mcpu=ampere1"
+          },
+          {
+            "versions": "13:",
+            "flags": "-mcpu=ampere1"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "10:",
+            "flags": "-mcpu=neoverse-n1"
+          },
+          {
+            "versions": "16:",
+            "flags": "-mcpu=ampere1"
+          }
+        ],
+        "arm": [
+          {
+            "versions": "22:",
+            "flags": "-mcpu=neoverse-n1"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": "22.5:",
+            "name": "neoverse-n1",
+            "flags": "-tp {name}"
+          }
+        ]
+      },
+      "cpupart": "0xac3"
+    },
+    "ampere1a": {
+      "from": [
+        "neoverse_n1",
+        "armv8.6a"
+      ],
+      "vendor": "Ampere",
+      "features": [
+        "fp",
+        "asimd",
+        "evtstrm",
+        "aes",
+        "pmull",
+        "sha1",
+        "sha2",
+        "crc32",
+        "atomics",
+        "fphp",
+        "asimdhp",
+        "cpuid",
+        "asimdrdm",
+        "jscvt",
+        "fcma",
+        "lrcpc",
+        "dcpop",
+        "sha3",
+        "sm3",
+        "sm4",
+        "asimddp",
+        "sha512",
+        "asimdfhm",
+        "dit",
+        "uscat",
+        "ilrcpc",
+        "flagm",
+        "ssbs",
+        "sb",
+        "paca",
+        "pacg",
+        "dcpodp",
+        "flagm2",
+        "frint",
+        "i8mm",
+        "bf16",
+        "rng",
+        "bti",
+        "ecv"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "9.0:10.4.99",
+            "flags": "-mcpu=neoverse-n1"
+          },
+          {
+            "versions": "10.5:10.99",
+            "flags": "-mcpu=ampere1a"
+          },
+          {
+            "versions": "11.0:11.3.99",
+            "flags": "-mcpu=neoverse-n1"
+          },
+          {
+            "versions": "11.4:11.99",
+            "flags": "-mcpu=ampere1a"
+          },
+          {
+            "versions": "12.0:12.2.99",
+            "flags": "-mcpu=neoverse-n1"
+          },
+          {
+            "versions": "12.3:12.99",
+            "flags": "-mcpu=ampere1a"
+          },
+          {
+            "versions": "13:",
+            "flags": "-mcpu=ampere1a"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "10:",
+            "flags": "-mcpu=neoverse-n1"
+          },
+          {
+            "versions": "16:",
+            "flags": "-mcpu=ampere1"
+          }
+        ],
+        "arm": [
+          {
+            "versions": "22:",
+            "flags": "-mcpu=neoverse-n1"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": "22.5:",
+            "name": "neoverse-n1",
+            "flags": "-tp {name}"
+          }
+        ]
+      },
+      "cpupart": "0xac4"
+    },
     "m1": {
       "from": [
         "armv8.4a"
@@ -4038,7 +4244,8 @@
       "0x61": "Apple",
       "0x66": "Faraday",
       "0x68": "HXT",
-      "0x69": "Intel"
+      "0x69": "Intel",
+      "0xc0": "Ampere"
     },
     "darwin_flags": {
       "sse4.1": "sse4_1",
