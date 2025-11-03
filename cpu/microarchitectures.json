@@ -4050,5 +4050,31 @@
       "clfsopt": "clflushopt",
       "xsave": "xsavec xsaveopt"
     }
+  },
+  "models": {
+    "description": "Lookup table from CPU family and model number to the corresponding microarchitecture",
+    "x86_64": [
+      {
+        "family": "6",
+        "model": "46",
+        "uarch": "nehalem"
+      },
+      {
+        "family": "6",
+        "model": "30",
+        "uarch": "nehalem"
+      },
+      {
+        "family": "6",
+        "model": "26",
+        "uarch": "nehalem"
+      },
+
+      {
+        "family": "6",
+        "model": "140",
+        "uarch": "icelake"
+      }
+    ]
   }
 }
