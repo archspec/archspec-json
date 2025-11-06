@@ -3970,13 +3970,13 @@
       "compilers": {
         "gcc": [
           {
-            "versions": "15.2:",
+            "versions": "14:",
             "flags": "-march=rv64imafdcv_zicbom_zicboz_zicntr_zicond_zicsr_zifencei_zihintpause_zihpm_zfh_zfhmin_zca_zcd_zba_zbb_zbc_zbs_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvfh_zvfhmin_zvkt_sscofpmf_sstc_svinval_svnapot_svpbmt"
           }
         ],
         "clang": [
           {
-            "versions": "22.0:",
+            "versions": "21.0:",
             "flags": "-march=rv64i2p1_m2p0_a2p1_f2p2_d2p2_c2p0_zicsr2p0_zmmul1p0_zaamo1p0_zalrsc1p0_zca1p0_zcd1p0"
           }
         ]
