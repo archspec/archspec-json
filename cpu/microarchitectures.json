@@ -3675,7 +3675,6 @@
             "versions": "10.1:",
             "flags": "-march=armv8.6-a -mtune=generic"
           }
-
         ],
         "clang": [
           {
