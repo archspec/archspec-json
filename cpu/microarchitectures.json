@@ -3672,9 +3672,10 @@
       "compilers": {
         "gcc": [
           {
-            "versions": "8.0:",
-            "flags": "-march=armv8.5-a -mtune=generic"
+            "versions": "10.1:",
+            "flags": "-march=armv8.6-a -mtune=generic"
           }
+
         ],
         "clang": [
           {
@@ -3754,8 +3755,8 @@
       "compilers": {
         "gcc": [
           {
-            "versions": "8.0:",
-            "flags": "-march=armv8.5-a -mtune=generic"
+            "versions": "10.1:",
+            "flags": "-march=armv8.6-a -mtune=generic"
           }
         ],
         "clang": [
@@ -3841,10 +3842,6 @@
       ],
       "compilers": {
         "gcc": [
-          {
-            "versions": "10.1:",
-            "flags": "-march=armv8.6-a -mtune=generic"
-          },
           {
             "versions": "14.1:",
             "flags": "-march=armv8.6-a+sme2 -mtune=generic"
