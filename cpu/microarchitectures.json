@@ -3842,9 +3842,9 @@
       "compilers": {
         "gcc": [
           {
-            "versions": "8.0:"
+            "versions": "8.0:",
             "flags": "-march=armv8.5-a"
-          },
+          }
         ],
         "clang": [
           {
