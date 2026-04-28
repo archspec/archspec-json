@@ -3840,6 +3840,12 @@
         "sme2"
       ],
       "compilers": {
+        "gcc": [
+          {
+            "versions": "8.0:"
+            "flags": "-march=armv8.5-a"
+          },
+        ],
         "clang": [
           {
             "versions": "9.0:12.0",
