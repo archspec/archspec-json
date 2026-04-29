@@ -2431,7 +2431,6 @@
         "fma",
         "fsgsbase",
         "gfni",
-        "ibrs_enhanced",
         "mmx",
         "movbe",
         "movdir64b",
