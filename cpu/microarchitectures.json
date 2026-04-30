@@ -3600,6 +3600,10 @@
           {
             "versions": "8.0:",
             "flags": "-march=armv8.4-a -mtune=generic"
+          },
+          {
+            "versions": "15.1:",
+            "flags": "-mcpu=apple-m1"
           }
         ],
         "clang": [
@@ -3674,6 +3678,10 @@
           {
             "versions": "10.1:",
             "flags": "-march=armv8.6-a -mtune=generic"
+          },
+          {
+            "versions": "15.1:",
+            "flags": "-mcpu=apple-m2"
           }
         ],
         "clang": [
@@ -3756,6 +3764,10 @@
           {
             "versions": "10.1:",
             "flags": "-march=armv8.6-a -mtune=generic"
+          },
+          {
+            "versions": "15.1:",
+            "flags": "-mcpu=apple-m3"
           }
         ],
         "clang": [
