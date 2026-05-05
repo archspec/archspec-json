@@ -3599,6 +3599,10 @@
           {
             "versions": "8.0:",
             "flags": "-march=armv8.4-a -mtune=generic"
+          },
+          {
+            "versions": "15.1:",
+            "flags": "-mcpu=apple-m1"
           }
         ],
         "clang": [
@@ -3671,8 +3675,12 @@
       "compilers": {
         "gcc": [
           {
-            "versions": "8.0:",
-            "flags": "-march=armv8.5-a -mtune=generic"
+            "versions": "10.1:",
+            "flags": "-march=armv8.6-a -mtune=generic"
+          },
+          {
+            "versions": "15.1:",
+            "flags": "-mcpu=apple-m2"
           }
         ],
         "clang": [
@@ -3753,8 +3761,12 @@
       "compilers": {
         "gcc": [
           {
-            "versions": "8.0:",
-            "flags": "-march=armv8.5-a -mtune=generic"
+            "versions": "10.1:",
+            "flags": "-march=armv8.6-a -mtune=generic"
+          },
+          {
+            "versions": "15.1:",
+            "flags": "-mcpu=apple-m3"
           }
         ],
         "clang": [
@@ -3839,6 +3851,12 @@
         "sme2"
       ],
       "compilers": {
+        "gcc": [
+          {
+            "versions": "14.1:",
+            "flags": "-march=armv9.2-a+sme2 -fno-tree-vectorize -fno-tree-slp-vectorize -mtune=generic"
+          }
+        ],
         "clang": [
           {
             "versions": "9.0:12.0",
