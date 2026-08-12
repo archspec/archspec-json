@@ -34,3 +34,6 @@ jobs:
 
         diff cpu/microarchitectures.json <(jq . cpu/microarchitectures.json)
         diff cpu/cpuid.json <(jq . cpu/cpuid.json)
+    - name: Check DAG consistency with feature sets
+      run: |
+        python3 tests/check_dag_consistency.py
