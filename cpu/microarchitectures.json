@@ -3884,7 +3884,7 @@
     },
     "ampere1a": {
       "from": [
-        "neoverse_n1",
+        "ampere1",
         "armv8.6a"
       ],
       "vendor": "Ampere",
