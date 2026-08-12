@@ -1238,7 +1238,8 @@
     },
     "cannonlake": {
       "from": [
-        "skylake"
+        "skylake",
+        "x86_64_v4"
       ],
       "vendor": "GenuineIntel",
       "features": [
