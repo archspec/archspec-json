@@ -3885,8 +3885,7 @@
     },
     "ampere1a": {
       "from": [
-        "ampere1",
-        "armv8.6a"
+        "ampere1"
       ],
       "vendor": "Ampere",
       "features": [
