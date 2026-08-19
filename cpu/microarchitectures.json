@@ -1238,7 +1238,8 @@
     },
     "cannonlake": {
       "from": [
-        "skylake"
+        "skylake",
+        "x86_64_v4"
       ],
       "vendor": "GenuineIntel",
       "features": [
@@ -3884,8 +3885,7 @@
     },
     "ampere1a": {
       "from": [
-        "neoverse_n1",
-        "armv8.6a"
+        "ampere1"
       ],
       "vendor": "Ampere",
       "features": [
