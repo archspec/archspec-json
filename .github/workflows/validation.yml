@@ -27,7 +27,7 @@ jobs:
       run: |
         check-jsonschema --schemafile cpu/microarchitectures_schema.json cpu/microarchitectures.json
         check-jsonschema --schemafile cpu/cpuid_schema.json cpu/cpuid.json
-        check-jsonschema --schemafile gpu/detection_schema.json gpu/detection.json
+        check-jsonschema --schemafile gpu/microarchitectures_schema.json gpu/microarchitectures.json
     - name: Check JSON file formatting
       run: |
         diff cpu/microarchitectures_schema.json <(jq . cpu/microarchitectures_schema.json)
@@ -36,5 +36,5 @@ jobs:
         diff cpu/microarchitectures.json <(jq . cpu/microarchitectures.json)
         diff cpu/cpuid.json <(jq . cpu/cpuid.json)
 
-        diff gpu/detection_schema.json <(jq . gpu/detection_schema.json)
-        diff gpu/detection.json <(jq . gpu/detection.json)
+        diff gpu/microarchitectures_schema.json <(jq . gpu/microarchitectures_schema.json)
+        diff gpu/microarchitectures.json <(jq . gpu/microarchitectures.json)
