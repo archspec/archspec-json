@@ -108,6 +108,26 @@
         }
       },
       "additionalProperties": false
+    },
+    "x86_cpu_targets": {
+      "$comment": "Optional vendor / decimal CPU family / decimal CPU model target preferences. Compatibility checks remain required.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "patternProperties": {
+          "^(0|[1-9][0-9]*)$": {
+            "type": "object",
+            "patternProperties": {
+              "^(0|[1-9][0-9]*)$": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
     }
   }
 }

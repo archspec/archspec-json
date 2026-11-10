@@ -4682,6 +4682,532 @@
           }
         ]
       }
+    },
+    "c86_4g_m4": {
+      "from": [
+        "x86_64_v3"
+      ],
+      "vendor": "HygonGenuine",
+      "features": [
+        "3dnowprefetch",
+        "abm",
+        "adx",
+        "aes",
+        "avx",
+        "avx2",
+        "bmi1",
+        "bmi2",
+        "clflushopt",
+        "clzero",
+        "cx16",
+        "f16c",
+        "fma",
+        "fsgsbase",
+        "fxsr",
+        "lahf_lm",
+        "lm",
+        "mmx",
+        "movbe",
+        "mwaitx",
+        "pclmulqdq",
+        "pni",
+        "popcnt",
+        "rdrand",
+        "rdseed",
+        "sha_ni",
+        "sse",
+        "sse2",
+        "sse4_1",
+        "sse4_2",
+        "sse4a",
+        "ssse3",
+        "xsave",
+        "xsavec",
+        "xsaveopt",
+        "xsaves"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "16.2:",
+            "name": "c86-4g-m4",
+            "flags": "-march={name} -mtune={name}"
+          },
+          {
+            "versions": "11.1:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "4.8:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "23.1:",
+            "name": "c86-4g-m4",
+            "flags": "-march={name} -mtune={name}"
+          },
+          {
+            "versions": "12.0:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "3.9:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "aocc": [
+          {
+            "versions": "2.2:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": "8.0:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "intel": [
+          {
+            "versions": "16.0:",
+            "name": "core-avx2",
+            "flags": "-march={name} -mtune={name} -fma -mf16c"
+          }
+        ],
+        "oneapi": [
+          {
+            "versions": "2021.2.0:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "dpcpp": [
+          {
+            "versions": "2021.2.0:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "px",
+            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave"
+          }
+        ]
+      }
+    },
+    "c86_4g_m6": {
+      "from": [
+        "x86_64_v3"
+      ],
+      "vendor": "HygonGenuine",
+      "features": [
+        "3dnowprefetch",
+        "abm",
+        "adx",
+        "aes",
+        "avx",
+        "avx2",
+        "bmi1",
+        "bmi2",
+        "clflushopt",
+        "clzero",
+        "cx16",
+        "f16c",
+        "fma",
+        "fsgsbase",
+        "fxsr",
+        "lahf_lm",
+        "lm",
+        "mmx",
+        "movbe",
+        "mwaitx",
+        "pclmulqdq",
+        "pni",
+        "popcnt",
+        "rdrand",
+        "rdseed",
+        "sha_ni",
+        "sse",
+        "sse2",
+        "sse4_1",
+        "sse4_2",
+        "sse4a",
+        "ssse3",
+        "xsave",
+        "xsavec",
+        "xsaveopt",
+        "xsaves"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "16.2:",
+            "name": "c86-4g-m6",
+            "flags": "-march={name} -mtune={name}"
+          },
+          {
+            "versions": "11.1:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "4.8:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "23.1:",
+            "name": "c86-4g-m6",
+            "flags": "-march={name} -mtune={name}"
+          },
+          {
+            "versions": "12.0:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "3.9:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "aocc": [
+          {
+            "versions": "2.2:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": "8.0:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
+          }
+        ],
+        "intel": [
+          {
+            "versions": "16.0:",
+            "name": "core-avx2",
+            "flags": "-march={name} -mtune={name} -fma -mf16c"
+          }
+        ],
+        "oneapi": [
+          {
+            "versions": "2021.2.0:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "dpcpp": [
+          {
+            "versions": "2021.2.0:",
+            "name": "x86-64-v3",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "px",
+            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave"
+          }
+        ]
+      }
+    },
+    "c86_4g_m7": {
+      "from": [
+        "x86_64_v4"
+      ],
+      "vendor": "HygonGenuine",
+      "features": [
+        "3dnowprefetch",
+        "abm",
+        "adx",
+        "aes",
+        "avx",
+        "avx2",
+        "avx512_bf16",
+        "avx512_bitalg",
+        "avx512_vbmi2",
+        "avx512_vnni",
+        "avx512_vp2intersect",
+        "avx512_vpopcntdq",
+        "avx512bw",
+        "avx512cd",
+        "avx512dq",
+        "avx512f",
+        "avx512ifma",
+        "avx512vbmi",
+        "avx512vl",
+        "avx_vnni",
+        "bmi1",
+        "bmi2",
+        "clflushopt",
+        "clwb",
+        "clzero",
+        "cx16",
+        "f16c",
+        "fma",
+        "fsgsbase",
+        "fxsr",
+        "gfni",
+        "lahf_lm",
+        "lm",
+        "mmx",
+        "movbe",
+        "mwaitx",
+        "pclmulqdq",
+        "pni",
+        "popcnt",
+        "rdrand",
+        "rdseed",
+        "sha_ni",
+        "sse",
+        "sse2",
+        "sse4_1",
+        "sse4_2",
+        "sse4a",
+        "ssse3",
+        "vaes",
+        "vpclmulqdq",
+        "wbnoinvd",
+        "xsave",
+        "xsavec",
+        "xsaveopt",
+        "xsaves"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "16.2:",
+            "name": "c86-4g-m7",
+            "flags": "-march={name} -mtune={name}"
+          },
+          {
+            "versions": "11.1:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "6.0:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "23.1:",
+            "name": "c86-4g-m7",
+            "flags": "-march={name} -mtune={name}"
+          },
+          {
+            "versions": "12.0:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "3.9:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ],
+        "aocc": [
+          {
+            "versions": "4:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": "8.0:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ],
+        "intel": [
+          {
+            "versions": "16.0:",
+            "name": "skylake-avx512",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "oneapi": [
+          {
+            "versions": "2021.2.0:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "dpcpp": [
+          {
+            "versions": "2021.2.0:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "px",
+            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ]
+      }
+    },
+    "c86_4g_m8": {
+      "from": [
+        "x86_64_v4"
+      ],
+      "vendor": "HygonGenuine",
+      "features": [
+        "3dnowprefetch",
+        "abm",
+        "adx",
+        "aes",
+        "avx",
+        "avx2",
+        "avx512_bf16",
+        "avx512_bitalg",
+        "avx512_vbmi2",
+        "avx512_vnni",
+        "avx512_vp2intersect",
+        "avx512_vpopcntdq",
+        "avx512bw",
+        "avx512cd",
+        "avx512dq",
+        "avx512f",
+        "avx512ifma",
+        "avx512vbmi",
+        "avx512vl",
+        "avx_vnni",
+        "bmi1",
+        "bmi2",
+        "clflushopt",
+        "clwb",
+        "clzero",
+        "cx16",
+        "f16c",
+        "fma",
+        "fsgsbase",
+        "fxsr",
+        "gfni",
+        "lahf_lm",
+        "lm",
+        "mmx",
+        "movbe",
+        "mwaitx",
+        "pclmulqdq",
+        "pni",
+        "popcnt",
+        "rdrand",
+        "rdseed",
+        "sha_ni",
+        "sse",
+        "sse2",
+        "sse4_1",
+        "sse4_2",
+        "sse4a",
+        "ssse3",
+        "vaes",
+        "vpclmulqdq",
+        "wbnoinvd",
+        "xsave",
+        "xsavec",
+        "xsaveopt",
+        "xsaves"
+      ],
+      "compilers": {
+        "gcc": [
+          {
+            "versions": "16.2:",
+            "name": "c86-4g-m8",
+            "flags": "-march={name} -mtune={name}"
+          },
+          {
+            "versions": "11.1:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "6.0:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ],
+        "clang": [
+          {
+            "versions": "23.1:",
+            "name": "c86-4g-m8",
+            "flags": "-march={name} -mtune={name} -mno-shstk"
+          },
+          {
+            "versions": "12.0:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          },
+          {
+            "versions": "3.9:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ],
+        "aocc": [
+          {
+            "versions": "4:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "apple-clang": [
+          {
+            "versions": "8.0:",
+            "name": "x86-64",
+            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ],
+        "intel": [
+          {
+            "versions": "16.0:",
+            "name": "skylake-avx512",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "oneapi": [
+          {
+            "versions": "2021.2.0:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "dpcpp": [
+          {
+            "versions": "2021.2.0:",
+            "name": "x86-64-v4",
+            "flags": "-march={name} -mtune=generic"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": ":",
+            "name": "px",
+            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
+          }
+        ]
+      }
     }
   },
   "feature_aliases": {
@@ -4772,6 +5298,16 @@
       "popcnt lzcnt": "abm",
       "clfsopt": "clflushopt",
       "xsave": "xsavec xsaveopt"
+    }
+  },
+  "x86_cpu_targets": {
+    "HygonGenuine": {
+      "24": {
+        "4": "c86_4g_m4",
+        "6": "c86_4g_m6",
+        "7": "c86_4g_m7",
+        "8": "c86_4g_m8"
+      }
     }
   }
 }
