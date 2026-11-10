@@ -34,27 +34,3 @@ See [LICENSE-MIT](https://github.com/archspec/archspec-json/blob/master/LICENSE-
 SPDX-License-Identifier: (Apache-2.0 OR MIT)
 
 LLNL-CODE-811653
-
-## Optional x86 identity preferences
-
-`microarchitectures.json` may contain an `x86_cpu_targets` object. Its keys are
-exact vendor strings, then canonical decimal CPU family and model strings:
-
-```json
-{"x86_cpu_targets": {"HygonGenuine": {"24": {"7": "c86_4g_m7", "8": "c86_4g_m8"}}}}
-```
-
-The Hygon mappings and four target definitions are included in this change;
-[source and validation notes](docs/hygon-c86-4g.md) distinguish compiler evidence
-from hardware captures. A mapping supplies a target preference, not permission
-to execute instructions. Consumers must still check target compatibility. No entry
-means no preference; a family/model pair is not assumed to identify every
-microarchitecture uniquely. Ambiguous identities should not be entered as a
-single unconditional preference. Each entered identity needs supporting evidence.
-The Python prototype initially collects these fields only on Linux x86.
-
-With the current Python extension loader, a vendor entry in an extension replaces
-that vendor's entire family/model mapping, rather than merging individual models.
-A consumer should keep its original selection path when a mapped target does not
-exist or fails compatibility checks. Schema validation checks the mapping's shape;
-it does not establish hardware identity or validate target references.
