@@ -59,8 +59,12 @@ No raw M6/M7/M8 hardware captures are included. Those targets are source-backed
 and have synthetic Python integration tests; synthetic records are not fixtures
 claimed to come from physical hardware.
 
-The preceding framework/schema prototype passed 686 tests. The four production
-entries, this fixture, compiler mappings and their new integration tests have
-not been run through a new validation pass. Native GCC 16.2/Clang 23.1 compile/run
-checks and M6/M7/M8 hardware checks have not been performed. These changes are
-submitted for draft review with these limits explicit.
+Both production JSON datasets pass their schemas, and all four JSON/schema
+files match jq formatting. All four instruction profiles have been compared
+with the referenced GCC masks and their generic parent requirements. With the
+companion Python implementation, 61 targeted tests pass, covering identity
+selection, masked features, compiler mapping boundaries, and the real M4 fixture.
+
+Hardware evidence is from M4. M6/M7/M8 validation uses public compiler sources
+and synthetic inputs. Native GCC 16.2/Clang 23.1 compile/run checks have not been
+performed; source support and generated flag strings have been checked.
