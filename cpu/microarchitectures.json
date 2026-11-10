@@ -5152,7 +5152,7 @@
           {
             "versions": "23.1:",
             "name": "c86-4g-m8",
-            "flags": "-march={name} -mtune={name} -mno-shstk"
+            "flags": "-march={name} -mtune={name}"
           },
           {
             "versions": "12.0:",

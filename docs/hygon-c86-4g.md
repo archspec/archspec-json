@@ -27,15 +27,14 @@ BMI is `bmi1`, SHA is `sha_ni`, PRFCHW is `3dnowprefetch`, PCLMUL is `pclmulqdq`
 and LZCNT/ABM are represented by `abm`. AVX-512 names follow the existing
 Archspec/Linux convention, including `avx512_vnni` and `avx512_vp2intersect`.
 
-LLVM adds SHSTK to M8, while GCC's M8 mask is identical to M7. This contribution
-uses the GCC instruction profile rather than inferring a hardware union from
-different compiler models. The native Clang M8 mapping explicitly uses
-`-mno-shstk` so its defaults do not enable the unmodeled LLVM-only feature.
-This preserves the M8 compiler target and scheduling model. It is not a claim
-that M8 hardware lacks shadow-stack support. Representing that additional
-capability and its OS availability is left for review rather than silently
-claiming it was validated. The other LLVM/GCC differences are recorded here;
-compiler masks are not independent hardware measurements.
+LLVM adds SHSTK to M8, while GCC's M8 mask is identical to M7. The feature
+entries here describe the GCC-derived profile, not the complete feature mask
+of every compiler target. Native mappings retain each compiler's target defaults:
+`-march=c86-4g-m8 -mtune=c86-4g-m8`, without a SHSTK override. The compiler-specific
+difference is documented rather than changing the compiler's supported target
+behavior to match this feature list. Actual shadow-stack enablement also depends
+on the operating system and runtime; a compiler feature bit alone does not
+establish that it is active for an application.
 
 ## Compiler ranges
 
