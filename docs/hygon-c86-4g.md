@@ -68,3 +68,24 @@ selection, masked features, compiler mapping boundaries, and the real M4 fixture
 Hardware evidence is from M4. M6/M7/M8 validation uses public compiler sources
 and synthetic inputs. Native GCC 16.2/Clang 23.1 compile/run checks have not been
 performed; source support and generated flag strings have been checked.
+
+## Live M4 validation
+
+A live run on 2026-11-10 used the actual `/proc/cpuinfo`, with no mocked CPU
+identity, flags or detection result. All 128 processor records reported the same
+HygonGenuine / family 24 / model 4 / stepping 1 identity and one common flag set.
+
+| Check | Result |
+| --- | --- |
+| Upstream Archspec e62828a with its original JSON | x86_64_v3 |
+| Python contribution 065d961 with JSON data from this branch | c86_4g_m4 |
+| GCC version available on the host | 11.4.0 |
+| Flags returned by optimization_flags("gcc", "11.4.0") | -march=x86-64-v3 -mtune=generic |
+| Compile using those flags, -O2 and -Werror | Exit 0 |
+| Eight-lane integer addition and floating-point FMA numerical checks | Exit 0 |
+| Instruction inspection | vpaddd and vfmadd132ps present |
+
+This checks the live detection-to-compiler-flags path and the generic fallback
+on M4 hardware. It is a numerical smoke test, not a performance result or an
+exhaustive ISA test. Native `-march=c86-4g-m4 -mtune=c86-4g-m4` execution with
+GCC 16.2/Clang 23.1 has not been checked by this run.
