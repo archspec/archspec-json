@@ -4760,48 +4760,6 @@
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
           }
-        ],
-        "aocc": [
-          {
-            "versions": "2.2:",
-            "name": "x86-64-v3",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "apple-clang": [
-          {
-            "versions": "8.0:",
-            "name": "x86-64",
-            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
-          }
-        ],
-        "intel": [
-          {
-            "versions": "16.0:",
-            "name": "core-avx2",
-            "flags": "-march={name} -mtune={name} -fma -mf16c"
-          }
-        ],
-        "oneapi": [
-          {
-            "versions": "2021.2.0:",
-            "name": "x86-64-v3",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "dpcpp": [
-          {
-            "versions": "2021.2.0:",
-            "name": "x86-64-v3",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "nvhpc": [
-          {
-            "versions": ":",
-            "name": "px",
-            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave"
-          }
         ]
       }
     },
@@ -4881,48 +4839,6 @@
             "versions": "3.9:",
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
-          }
-        ],
-        "aocc": [
-          {
-            "versions": "2.2:",
-            "name": "x86-64-v3",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "apple-clang": [
-          {
-            "versions": "8.0:",
-            "name": "x86-64",
-            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave"
-          }
-        ],
-        "intel": [
-          {
-            "versions": "16.0:",
-            "name": "core-avx2",
-            "flags": "-march={name} -mtune={name} -fma -mf16c"
-          }
-        ],
-        "oneapi": [
-          {
-            "versions": "2021.2.0:",
-            "name": "x86-64-v3",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "dpcpp": [
-          {
-            "versions": "2021.2.0:",
-            "name": "x86-64-v3",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "nvhpc": [
-          {
-            "versions": ":",
-            "name": "px",
-            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave"
           }
         ]
       }
@@ -5023,48 +4939,6 @@
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
           }
-        ],
-        "aocc": [
-          {
-            "versions": "4:",
-            "name": "x86-64-v4",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "apple-clang": [
-          {
-            "versions": "8.0:",
-            "name": "x86-64",
-            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
-          }
-        ],
-        "intel": [
-          {
-            "versions": "16.0:",
-            "name": "skylake-avx512",
-            "flags": "-march={name} -mtune={name}"
-          }
-        ],
-        "oneapi": [
-          {
-            "versions": "2021.2.0:",
-            "name": "x86-64-v4",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "dpcpp": [
-          {
-            "versions": "2021.2.0:",
-            "name": "x86-64-v4",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "nvhpc": [
-          {
-            "versions": ":",
-            "name": "px",
-            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
-          }
         ]
       }
     },
@@ -5163,48 +5037,6 @@
             "versions": "3.9:",
             "name": "x86-64",
             "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
-          }
-        ],
-        "aocc": [
-          {
-            "versions": "4:",
-            "name": "x86-64-v4",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "apple-clang": [
-          {
-            "versions": "8.0:",
-            "name": "x86-64",
-            "flags": "-march={name} -mtune=generic -mcx16 -msahf -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mmovbe -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
-          }
-        ],
-        "intel": [
-          {
-            "versions": "16.0:",
-            "name": "skylake-avx512",
-            "flags": "-march={name} -mtune={name}"
-          }
-        ],
-        "oneapi": [
-          {
-            "versions": "2021.2.0:",
-            "name": "x86-64-v4",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "dpcpp": [
-          {
-            "versions": "2021.2.0:",
-            "name": "x86-64-v4",
-            "flags": "-march={name} -mtune=generic"
-          }
-        ],
-        "nvhpc": [
-          {
-            "versions": ":",
-            "name": "px",
-            "flags": "-tp {name} -mpopcnt -msse3 -msse4.1 -msse4.2 -mssse3 -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mlzcnt -mxsave -mavx512f -mavx512bw -mavx512cd -mavx512dq -mavx512vl"
           }
         ]
       }
