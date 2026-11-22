@@ -4608,7 +4608,7 @@
         "gcc": [
           {
             "versions": "14.1:",
-            "flags": "-march=armv9.2-a+sme2 -fno-tree-vectorize -fno-tree-slp-vectorize -mtune=generic"
+            "flags": "-march=armv9.2-a+nosve -mtune=generic"
           }
         ],
         "clang": [
