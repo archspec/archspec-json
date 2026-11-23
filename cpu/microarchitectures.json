@@ -4135,6 +4135,19 @@
             "versions": "19.0:",
             "flags": "-mcpu=neoverse-v3"
           }
+        ],
+        "arm": [
+          {
+            "versions": "24.10:",
+            "flags": "-mcpu=neoverse-v3"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": "26.9:",
+            "name": "neoverse-v3",
+            "flags": "-tp {name}"
+          }
         ]
       },
       "cpupart": "0xd84"
@@ -4206,6 +4219,19 @@
           {
             "versions": "19.0:",
             "flags": "-mcpu=neoverse-v3ae"
+          }
+        ],
+        "arm": [
+          {
+            "versions": "24.10:",
+            "flags": "-mcpu=neoverse-v3ae"
+          }
+        ],
+        "nvhpc": [
+          {
+            "versions": "26.5:",
+            "name": "neoverse-v3ae",
+            "flags": "-tp {name}"
           }
         ]
       },
