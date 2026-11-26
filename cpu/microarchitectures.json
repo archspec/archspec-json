@@ -173,7 +173,7 @@
         ],
         "llvm-amdgpu": [
           {
-            "versions": ":",
+            "versions": "4.1:",
             "name": "x86-64-v2",
             "flags": "-march={name} -mtune=generic"
           }
@@ -261,7 +261,7 @@
         ],
         "llvm-amdgpu": [
           {
-            "versions": ":",
+            "versions": "4.1:",
             "name": "x86-64-v3",
             "flags": "-march={name} -mtune=generic"
           }
@@ -367,7 +367,7 @@
         ],
         "llvm-amdgpu": [
           {
-            "versions": ":",
+            "versions": "4.1:",
             "name": "x86-64-v4",
             "flags": "-march={name} -mtune=generic"
           }
@@ -433,6 +433,12 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "2.2:",
@@ -487,6 +493,12 @@
         "clang": [
           {
             "versions": "3.9:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "flags": "-march={name} -mtune={name}"
           }
         ],
@@ -558,6 +570,12 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "2.2:",
@@ -622,6 +640,12 @@
         "clang": [
           {
             "versions": "3.9:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "flags": "-march={name} -mtune={name}"
           }
         ],
@@ -695,6 +719,12 @@
         "clang": [
           {
             "versions": "3.9:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "flags": "-march={name} -mtune={name}"
           }
         ],
@@ -777,6 +807,12 @@
         "clang": [
           {
             "versions": "3.9:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "flags": "-march={name} -mtune={name}"
           }
         ],
@@ -870,6 +906,12 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "2.2:",
@@ -956,6 +998,12 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "2.2:",
@@ -1038,6 +1086,12 @@
         "clang": [
           {
             "versions": "3.9:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "flags": "-march={name} -mtune={name}"
           }
         ],
@@ -1130,6 +1184,13 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "name": "knl",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "2.2:",
@@ -1217,6 +1278,13 @@
         "clang": [
           {
             "versions": "3.9:",
+            "name": "skylake-avx512",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "name": "skylake-avx512",
             "flags": "-march={name} -mtune={name}"
           }
@@ -1319,6 +1387,12 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "2.2:",
@@ -1408,6 +1482,12 @@
         "clang": [
           {
             "versions": "8.0:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "flags": "-march={name} -mtune={name}"
           }
         ],
@@ -1518,6 +1598,13 @@
           },
           {
             "versions": "6.0:6.9",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "name": "icelake-client",
             "flags": "-march={name} -mtune={name}"
           }
         ],
@@ -1642,6 +1729,12 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "intel": [
           {
             "versions": "2021.2:",
@@ -1718,6 +1811,12 @@
             "versions": "12.0:",
             "flags": "-march={name} -mtune={name}"
           }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "flags": "-march={name} -mtune={name}"
+          }
         ]
       }
     },
@@ -1779,6 +1878,12 @@
         "clang": [
           {
             "versions": "18.0:",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "6.2:",
             "flags": "-march={name} -mtune={name}"
           }
         ]
@@ -1850,6 +1955,13 @@
             "name": "arrowlake-s",
             "flags": "-march={name} -mtune={name}"
           }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "6.2:",
+            "name": "arrowlake-s",
+            "flags": "-march={name} -mtune={name}"
+          }
         ]
       }
     },
@@ -1879,6 +1991,13 @@
         "clang": [
           {
             "versions": "3.9:",
+            "name": "amdfam10",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "name": "amdfam10",
             "flags": "-march={name} -mtune={name}"
           }
@@ -1950,6 +2069,13 @@
         "clang": [
           {
             "versions": "3.9:",
+            "name": "bdver1",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "name": "bdver1",
             "flags": "-march={name} -mtune={name}"
           }
@@ -2034,6 +2160,13 @@
             "flags": "-march={name} -mtune={name}"
           }
         ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
+            "name": "bdver2",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
         "aocc": [
           {
             "versions": "2.2:",
@@ -2111,6 +2244,13 @@
         "clang": [
           {
             "versions": "3.9:",
+            "name": "bdver3",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "name": "bdver3",
             "flags": "-march={name} -mtune={name}"
           }
@@ -2197,6 +2337,13 @@
         "clang": [
           {
             "versions": "3.9:",
+            "name": "bdver4",
+            "flags": "-march={name} -mtune={name}"
+          }
+        ],
+        "llvm-amdgpu": [
+          {
+            "versions": "5.7:",
             "name": "bdver4",
             "flags": "-march={name} -mtune={name}"
           }
@@ -2495,7 +2642,7 @@
         ],
         "llvm-amdgpu": [
           {
-            "versions": ":",
+            "versions": "4.1:",
             "name": "znver3",
             "flags": "-march={name} -mtune={name}"
           }
